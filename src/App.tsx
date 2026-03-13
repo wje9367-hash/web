@@ -2676,8 +2676,10 @@ export default function App() {
               {/* Bottom Section: Comparison Table */}
               {(() => {
                 const regionData = [
-                  { id: 'asia', label: 'Asia-Pacific', countries: [
+                  { id: 'oceania', label: 'Oceania', countries: [
                     { label: 'Australia (FSANZ)',                 iso: 'au' },
+                  ]},
+                  { id: 'asia', label: 'Asia-Pacific', countries: [
                     { label: 'China (SAMR)',                      iso: 'cn' },
                     { label: 'Hong Kong (CFS/FEHD)',              iso: 'hk' },
                     { label: 'Indonesia (BPOM)',                  iso: 'id' },
