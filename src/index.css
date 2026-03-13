@@ -32,6 +32,11 @@ body {
   font-family: var(--font-display);
 }
 
+a, button, [role="button"], select, label[for],
+summary, [tabindex]:not([tabindex="-1"]) {
+  cursor: pointer;
+}
+
 .glass-panel {
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(8px);
