@@ -447,13 +447,31 @@ const FoodCategorySection = ({ tabKey, searchQuery }: { tabKey: string; searchQu
   const data = CATEGORY_DATA[tabKey];
   if (!data) return null;
   const { title, icon: Icon, rows } = data;
-  const filtered = searchQuery
+  const filtered = (searchQuery
     ? rows.filter(r =>
         r.country.toLowerCase().includes(searchQuery.toLowerCase()) ||
         r.law.toLowerCase().includes(searchQuery.toLowerCase()) ||
         r.requirement.toLowerCase().includes(searchQuery.toLowerCase())
       )
-    : rows;
+    : rows
+  ).slice().sort((a, b) => {
+    const getTs = (d?: string): number => {
+      if (!d || d === '시행 중') return Infinity;
+      if (d.includes('예정') || d.includes('~')) return Infinity - 1;
+      const m = d.match(/(\d{4})[.\-](\d{2})[.\-](\d{2})/);
+      if (m) {
+        const dt = new Date(`${m[1]}-${m[2]}-${m[3]}`);
+        return dt > new Date() ? dt.getTime() : Infinity;
+      }
+      const ym = d.match(/(\d{4})[.\-](\d{2})/);
+      if (ym) {
+        const dt = new Date(`${ym[1]}-${ym[2]}-01`);
+        return dt > new Date() ? dt.getTime() : Infinity;
+      }
+      return Infinity;
+    };
+    return getTs(a.enforcementDate) - getTs(b.enforcementDate);
+  });
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
