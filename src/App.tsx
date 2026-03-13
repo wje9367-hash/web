@@ -1061,7 +1061,7 @@ const NotifiedSection = ({ searchQuery }: { searchQuery: string }) => {
               <tr key={idx} className="hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
                 <td className="px-5 py-4">
                   <p className="text-sm font-bold text-slate-800 dark:text-slate-100">
-                    {r.nameLocal}{(r as any).regulated && <span className="text-amber-500 font-bold ml-0.5">*</span>}
+                    {r.nameLocal}{(r as any).regulated && <span className="text-rose-500 font-bold ml-0.5">*</span>}
                   </p>
                   <p className="text-[11px] text-slate-400 mt-0.5">{r.name}</p>
                 </td>
