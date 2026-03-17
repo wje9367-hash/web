@@ -74,10 +74,15 @@ const COL_WIDTHS_CATEGORY = [
 
 export function exportRegulationsToExcel(
   categoryData: Record<string, CategoryEntry>,
-  usStateRegs: Record<string, StateReg>
+  usStateRegs: Record<string, StateReg>,
+  options?: { countryFilter?: string }
 ): void {
   const wb = XLSX.utils.book_new();
   const today = new Date().toISOString().slice(0, 10);
+  const filter = options?.countryFilter;
+
+  const matchRow = (row: RegRow): boolean =>
+    !filter || row.country.toLowerCase().includes(filter.toLowerCase());
 
   // ── Sheet 1: 전체 요약 ──────────────────────────────────────────
   const summaryHeader = ['식품 카테고리', '국가/지역', '법규명 (요약)', '시행일', '긴급 여부', '핵심 주의사항 (요약)'];
@@ -85,7 +90,7 @@ export function exportRegulationsToExcel(
 
   for (const [key, cat] of Object.entries(categoryData)) {
     const label = CATEGORY_KO[key] ?? key;
-    for (const row of cat.rows) {
+    for (const row of cat.rows.filter(matchRow)) {
       summaryRows.push([
         label,
         `${row.flag ?? ''} ${row.country}`.trim(),
@@ -108,7 +113,7 @@ export function exportRegulationsToExcel(
 
   for (const [key, cat] of Object.entries(categoryData)) {
     const sheetName = SHEET_NAMES[key] ?? key.slice(0, 28);
-    const dataRows = cat.rows.map(row => [
+    const dataRows = cat.rows.filter(matchRow).map(row => [
       `${row.flag ?? ''} ${row.country}`.trim(),
       trunc(row.law, 80),
       trunc(row.requirement, 200),
@@ -123,42 +128,47 @@ export function exportRegulationsToExcel(
     XLSX.utils.book_append_sheet(wb, ws, sheetName);
   }
 
-  // ── Sheet 10: 미국 주별 ─────────────────────────────────────────
-  const usHeader = ['주(State)', '규제 유형', '규정명 / 성분', '내용 요약', '시행일 / 기준', '관련 법'];
-  const usRows: string[][] = [usHeader];
+  // ── Sheet 10: 미국 주별 (countryFilter 없을 때만) ───────────────
+  if (!filter) {
+    const usHeader = ['주(State)', '규제 유형', '규정명 / 성분', '내용 요약', '시행일 / 기준', '관련 법'];
+    const usRows: string[][] = [usHeader];
 
-  for (const [stateCode, state] of Object.entries(usStateRegs)) {
-    const stateName = `${state.flag ?? ''} ${state.name} (${stateCode})`.trim();
+    for (const [stateCode, state] of Object.entries(usStateRegs)) {
+      const stateName = `${state.flag ?? ''} ${state.name} (${stateCode})`.trim();
 
-    for (const rule of state.labelingRules) {
-      usRows.push([
-        stateName,
-        '라벨링 규칙',
-        trunc(rule.rule, 60),
-        trunc(rule.detail, 200),
-        rule.date ?? '',
-        '',
-      ]);
+      for (const rule of state.labelingRules) {
+        usRows.push([
+          stateName,
+          '라벨링 규칙',
+          trunc(rule.rule, 60),
+          trunc(rule.detail, 200),
+          rule.date ?? '',
+          '',
+        ]);
+      }
+
+      for (const ing of state.strictIngredients) {
+        usRows.push([
+          stateName,
+          '금지·제한 성분',
+          trunc(ing.ingredient, 60),
+          trunc(ing.limit, 100),
+          ing.enforcementDate ?? '',
+          trunc(ing.law, 60),
+        ]);
+      }
     }
 
-    for (const ing of state.strictIngredients) {
-      usRows.push([
-        stateName,
-        '금지·제한 성분',
-        trunc(ing.ingredient, 60),
-        trunc(ing.limit, 100),
-        ing.enforcementDate ?? '',
-        trunc(ing.law, 60),
-      ]);
-    }
+    const usWs = XLSX.utils.aoa_to_sheet(usRows);
+    usWs['!cols'] = [
+      { wch: 22 }, { wch: 16 }, { wch: 42 }, { wch: 62 }, { wch: 16 }, { wch: 42 },
+    ];
+    XLSX.utils.book_append_sheet(wb, usWs, '미국 주별');
   }
 
-  const usWs = XLSX.utils.aoa_to_sheet(usRows);
-  usWs['!cols'] = [
-    { wch: 22 }, { wch: 16 }, { wch: 42 }, { wch: 62 }, { wch: 16 }, { wch: 42 },
-  ];
-  XLSX.utils.book_append_sheet(wb, usWs, '미국 주별');
-
   // ── 다운로드 ────────────────────────────────────────────────────
-  XLSX.writeFile(wb, `food-regulations-${today}.xlsx`);
+  const filename = filter
+    ? `food-regs-sample-${filter.replace(/\s+/g, '-')}-${today}.xlsx`
+    : `food-regulations-${today}.xlsx`;
+  XLSX.writeFile(wb, filename);
 }

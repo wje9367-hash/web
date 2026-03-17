@@ -2462,9 +2462,17 @@ export default function App() {
           </div>
           <div className="flex items-center gap-4 ml-8">
             <button
+              onClick={() => exportRegulationsToExcel(CATEGORY_DATA, US_STATE_REGS, { countryFilter: 'South Korea' })}
+              className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-slate-500 border border-slate-300 dark:border-slate-600 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
+              title="한국(MFDS) 데이터만 샘플로 내려받기 — 포맷 확인용"
+            >
+              <Download className="size-3.5" />
+              KR 샘플
+            </button>
+            <button
               onClick={() => exportRegulationsToExcel(CATEGORY_DATA, US_STATE_REGS)}
               className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-primary border border-primary/40 hover:bg-primary/10 rounded-lg transition-colors"
-              title="국가별·식품 유형별 규제 데이터를 Excel로 내려받기"
+              title="전체 국가·식품 유형별 규제 데이터를 Excel로 내려받기"
             >
               <Download className="size-3.5" />
               Excel
