@@ -5,6 +5,7 @@
 
 import React, { useState } from 'react';
 import regulationsData from './data/regulations.json';
+import { exportRegulationsToExcel } from './utils/exportRegulationsToExcel';
 import { 
   Microscope, 
   Stethoscope, 
@@ -2460,6 +2461,14 @@ export default function App() {
             </div>
           </div>
           <div className="flex items-center gap-4 ml-8">
+            <button
+              onClick={() => exportRegulationsToExcel(CATEGORY_DATA, US_STATE_REGS)}
+              className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-primary border border-primary/40 hover:bg-primary/10 rounded-lg transition-colors"
+              title="국가별·식품 유형별 규제 데이터를 Excel로 내려받기"
+            >
+              <Download className="size-3.5" />
+              Excel
+            </button>
             <button className="p-2 text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg relative">
               <Bell className="size-5" />
               {newsItems.some(n => n.isNew) && (
