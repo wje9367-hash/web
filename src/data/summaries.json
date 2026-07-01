@@ -1,0 +1,1037 @@
+{
+  "version": "2026-03-18",
+  "entries": {
+    "South Korea (MFDS)": {
+      "fsmp": {
+        "lawSummary": "식품위생법 / 특수의료용도식품 기준 (2024-79)",
+        "consolidatedSummary": "당뇨용 FSMP는 다량영양소 비율(탄수화물 50–60%, 단백질 15–20%, 지방 20–25%) 및 단순당 10% kcal 미만을 준수해야 하며, 알루로스는 최대 10%로 제한된다. 신제품 출시 시 MFDS 개별인정 또는 기준규격 신청이 필수이며, 라벨에는 '반드시 의사 지도 하 섭취' 문구를 의무 표시해야 한다.",
+        "exportAlert": "알루로스 10% 초과 시 판매 불가. 신규 성분·제형은 MFDS 사전 개별인정을 받아야 하며, 의사 지도 문구 누락 시 회수 대상이 된다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Claude",
+        "reviewNote": "Gemini API 할당량 초과로 Claude가 직접 작성. requirement + advisory 통합, 알루로스 제한·개별인정 절차 강조."
+      },
+      "plant-based": {
+        "lawSummary": "식품공전 두류·대두단백 가공식품 기준",
+        "consolidatedSummary": "식물성 단백질 식품은 단백질 ≥25% 기준을 충족해야 하며, GMO 대두 사용 시 2026년 1월 개정된 GMO 표시 기준이 적용된다. 비건·채식 마크는 법적 의무가 아닌 민간 인증이므로 별도로 관리해야 하며, 혼합 단백질 제품은 원료별 표시 기준을 추가 검토해야 한다.",
+        "exportAlert": "GMO 표시 개정(2026.01) 적용 여부를 즉시 확인해야 하며, 단백질 함량 25% 미만 시 식물성 단백질 식품으로 표시 불가.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Claude",
+        "reviewNote": "Gemini API 할당량 초과로 Claude가 직접 작성. GMO 개정 시점과 비건 마크 법적 지위 명확히 구분."
+      },
+      "grains": {
+        "lawSummary": "식품공전 곡류·전분류 기준 및 규격",
+        "consolidatedSummary": "백미 등 곡류는 수분 ≤15.5%, 아플라톡신 B1 ≤10 μg/kg·총합 ≤15 μg/kg의 곰팡이독소 기준, 그리고 농약잔류허용기준을 동시에 충족해야 한다. 미등록 농약은 0.01 mg/kg 일률 기준이 적용되며, 최근 수입 곡류에서 아플라톡신 초과 사례가 증가 추세이므로 입고 시 검사 성적서 수취가 필수다.",
+        "exportAlert": "아플라톡신 B1 10 μg/kg·총합 15 μg/kg 초과 시 수입 불가. 미등록 잔류농약은 0.01 mg/kg 일률 기준 적용.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Claude",
+        "reviewNote": "Gemini API 할당량 초과로 Claude가 직접 작성. 수분·곰팡이독소·잔류농약 세 기준을 통합 서술."
+      },
+      "meat-fish": {
+        "lawSummary": "축산물 위생관리법·수산물 품질관리법·식품위생법",
+        "consolidatedSummary": "도축·가공 전 공정에 HACCP 의무 적용. 식육은 냉장 0–10°C·냉동 –18°C 이하 온도 관리, 수산물은 히스타민 ≤200 mg/kg, 알류는 살모넬라 불검출 기준을 준수해야 한다. 수출 시 상대국 위생증명서(Health Certificate)가 필수이며, 수산물은 MAFRA 이력제 등록 여부도 별도 확인이 필요하다.",
+        "exportAlert": "수출 전 수입국 위생증명서(Health Certificate) 발급 및 수산물 이력제 등록 필수. 히스타민·살모넬라 기준 초과 시 전량 반송 처리.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Claude",
+        "reviewNote": "Gemini API 할당량 초과로 Claude가 직접 작성. 축산·수산·알류 기준을 품목별로 구분해 통합."
+      },
+      "vegetables": {
+        "lawSummary": "식품공전 채소류 기준·농약잔류허용기준",
+        "consolidatedSummary": "채소류는 허용기준 미등록 농약에 대해 0.01 mg/kg 일률 기준이 적용되며, 신선편의식품은 대장균군 불검출 및 HACCP 인증이 권장된다. 방사선 조사 시 표시 의무가 있으며, 수입 채소는 원산지 및 잔류농약 검사 성적서 구비가 기본 요건이다.",
+        "exportAlert": "미등록 잔류농약 0.01 mg/kg 일률 기준 초과 시 폐기·반송 처분. 신선편의식품은 대장균군 불검출 필수.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Claude",
+        "reviewNote": "Gemini API 할당량 초과로 Claude가 직접 작성. 일률기준·미생물·방사선 조사 표시 세 규정을 연결해 통합."
+      },
+      "fruits": {
+        "lawSummary": "식품공전 과일류 기준·농약잔류허용기준",
+        "consolidatedSummary": "과실류는 미등록 잔류농약 0.01 mg/kg 일률 기준과 함께, 복숭아 등 특정 품목에서 납 ≤0.1 mg/kg·카드뮴 ≤0.05 mg/kg 중금속 기준이 별도 적용된다. 방사선 조사 금지 품목이 포함되어 있으며, 수입 과일은 잔류농약 검사 성적서가 필수다. 복숭아류 중금속 초과 사례가 발생하고 있어 입고 검사가 중요하다.",
+        "exportAlert": "복숭아류 납·카드뮴 기준 초과 수입 사례 발생 중. 잔류농약 검사 성적서 없이는 통관 불가.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Claude",
+        "reviewNote": "Gemini API 할당량 초과로 Claude가 직접 작성. 잔류농약·중금속·방사선 조사 세 기준을 품목별 특이사항 포함해 통합."
+      },
+      "dairy": {
+        "lawSummary": "축산물 위생관리법·유가공품 기준 및 규격",
+        "consolidatedSummary": "원유는 체세포수 ≤400,000/mL·세균수 ≤100,000/mL를 충족해야 하며, 저온살균(63°C 30분 이상) 의무 및 항생제 잔류 불검출이 요구된다. 무항생제 인증 표시는 별도 기준을 따르며, 분유·조제유류는 식약처와 MAFRA의 이중 관할을 받으므로 수출 전 수입국의 유가공품 허가 상태를 사전에 확인해야 한다.",
+        "exportAlert": "분유·조제유 수출 시 식약처·MAFRA 이중 허가 확인 필수. 항생제 잔류 검출 시 전량 반송 처리.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Claude",
+        "reviewNote": "Gemini API 할당량 초과로 Claude가 직접 작성. 원유 품질 기준·살균·항생제·이중 관할 규정을 연결해 통합."
+      },
+      "bakery": {
+        "lawSummary": "식품공전 과자류·빵류·만두류 기준",
+        "consolidatedSummary": "베이커리·과자류는 트랜스지방 ≤4g/100g(0g 표시 허용 기준 ≤0.2g/100g), 프로피온산·소르빈산 등 보존료 사용 기준, 알레르겐 22종 의무 표시를 동시에 충족해야 한다. 알레르겐 교차오염(may contain) 표시가 권장되며, 식품첨가물 공전 기준에 따른 성분 검토가 필수다.",
+        "exportAlert": "알레르겐 22종 표시 누락 시 판매 금지. 트랜스지방 0.2g/100g 이하에서만 0g 표시 가능하며, 4g/100g 초과 시 판매 불가.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Claude",
+        "reviewNote": "Gemini API 할당량 초과로 Claude가 직접 작성. 트랜스지방·보존료·알레르겐 세 기준의 상호 보완 관계를 통합."
+      }
+    },
+    "EU (EFSA)": {
+      "fsmp": {
+        "lawSummary": "EU FSMP 규정 (EU) 2016/128, (EC) 609/2013",
+        "consolidatedSummary": "EU FSMP는 질환 카테고리별 성분 기준을 적용하며, 첨가물은 Regulation (EC) 1333/2008 Category 13.2를 준수해야 합니다. 특히 감미료는 해당 규정의 개별 허용 기준을 반드시 지켜야 합니다. 제품에는 \"특수 의료 목적용(For special medical purposes)\" 문구를 의무적으로 표시해야 합니다. 최신 규정 업데이트는 EU 관보에서 확인할 것을 권장합니다.",
+        "exportAlert": "한국 기업은 FSMP 제품 수출 시, 질환 카테고리별 성분 기준과 더불어 Regulation (EC) 1333/2008 Cat 13.2에 명시된 감미료 개별 허용 기준을 반드시 준수해야 합니다. 또한, 최신 규정 변경 사항을 EU 관보에서 확인하여 미확인된 시행일 및 규정 업데이트에 철저히 대비해야 합니다.",
+        "enforcementDate": "미확인",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "plant-based": {
+        "lawSummary": "Novel Food Regulation (EU) 2015/2283",
+        "consolidatedSummary": "EU는 레귀메이션, 미세조류 등 신규 식물성 단백질에 대해 Novel Food 사전 허가를 의무화하며, EFSA 과학적 의견서 제출이 필수적입니다. EFSA 심사는 18~36개월이 소요됩니다. 기존 허가된 대두·완두 단백질은 해당하지 않으므로, 성분 신규성을 사전에 반드시 확인해야 합니다.",
+        "exportAlert": "한국 기업은 신규 식물성 단백질 제품 수출 시 Novel Food 사전 허가와 EFSA 과학적 의견서 제출이 필수이며, 심사에 18-36개월이 소요됨을 인지하고 성분 신규성을 사전에 반드시 확인해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "grains": {
+        "lawSummary": "EU 농약 MRL 및 오염물질 규정",
+        "consolidatedSummary": "EU는 곡류(밀, 보리, 귀리)에 통합된 농약 잔류허용기준(MRL)을 적용하며, 곰팡이독소 규제 또한 엄격합니다. 특히 아플라톡신 B1은 2 µg/kg, 밀의 DON은 1,250 µg/kg을 초과해서는 안 됩니다. 수출 기업은 EU MRL 데이터베이스(EFSA Pesticides)를 통해 한국보다 엄격한 EU 기준을 반드시 사전 확인하고, 규제 준수를 위한 지속적인 모니터링 의무를 이행해야 합니다.",
+        "exportAlert": "한국 기업은 EU의 농약 잔류허용기준(MRL) 및 곰팡이독소 기준(아플라톡신 B1 2 µg/kg, 밀 DON 1,250 µg/kg)이 한국보다 엄격한 경우가 많으므로, 수출 전 EFSA Pesticides 데이터베이스를 통해 반드시 교차 확인해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "meat-fish": {
+        "lawSummary": "EU 동물성 제품 위생 규정 (EC) 853/2004",
+        "consolidatedSummary": "EU로 육류·어류·난류 수출 시, 반드시 EU 승인 도축장 및 가공시설 목록에 포함된 시설에서 처리해야 합니다. 콜드체인 문서화가 필수이며, 히스타민은 일반 어류 100 mg/kg, 효소 성숙 어류 200 mg/kg을 초과해서는 안 됩니다. 또한, 제품 유형별 살모넬라 기준을 반드시 준수해야 합니다.",
+        "exportAlert": "EU 수출 시, 반드시 EU 승인 도축장 및 가공시설 목록에 등재된 시설에서 생산되어야 하며, 영국 수출의 경우 EU 규정 대신 UKCA/DEFRA 별도 기준이 적용됨을 유의해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "vegetables": {
+        "lawSummary": "EU 농약 MRL (396/2005) & 미생물 기준 (2073/2005)",
+        "consolidatedSummary": "EU는 1,100종 이상의 통합 MRL을 운영하며, 최신 MRL 데이터베이스 정기 모니터링이 필수입니다. 특히 클로르피리포스를 포함한 EU 금지 농약의 사용 여부를 원산지 단계에서 철저히 확인해야 합니다. 즉석 섭취 엽채류의 경우, 살모넬라가 25g 중 불검출되어야 합니다.",
+        "exportAlert": "EU 수출 시 클로르피리포스 등 금지 농약 사용 여부를 원산지 단계에서 철저히 검증하고, 즉석 섭취 엽채류는 살모넬라 25g 중 불검출 기준을 반드시 충족해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "fruits": {
+        "lawSummary": "EU 농약 MRL (396/2005) 및 수확 후 처리",
+        "consolidatedSummary": "EU는 과일류에 엄격한 MRL(Regulation (EC) 396/2005)을 적용하며, 클로르피리포스·메틸 등 금지 농약 잔류 검출 시 해당 수입품 전량이 폐기됩니다. 수확 후 처리(Reg 1333/2008)에 사용되는 살균제(예: 감귤 티아벤다졸)는 EU Annex I에 해당하고 별도 규제를 준수해야 합니다. 유기농 제품은 EU 동등성 확인이 필수입니다.",
+        "exportAlert": "EU 수출 시 클로르피리포스·메틸 등 금지 농약 잔류 검출은 수입 전량 폐기로 이어지므로, 무검출 관리가 필수적입니다. 또한, 수확 후 처리 성분(예: 감귤 티아벤다졸)이 EU Annex I에 해당하고 별도 규제를 준수하는지 반드시 확인해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "dairy": {
+        "lawSummary": "EU 유제품 규정 (EC) 853/2004 및 1169/2011",
+        "consolidatedSummary": "EU 유제품은 열처리 표시를 의무화하며, 원유 원산지를 Reg 1169/2011 Art. 26에 따라 라벨에 명시해야 한다. \"우유(Milk)\" 명칭은 동물성 원산 제품에만 허용되며, 식물성 대체품에는 사용할 수 없다(ECJ 판례). 치즈, 버터, 크림 등 유제품은 각 성분 기준을 준수해야 한다.",
+        "exportAlert": "한국 기업은 식물성 유제품 대체품에 \"milk\" 명칭 사용이 불가하며, Reg 1169/2011 Art. 26에 의거한 원유 원산지 표시 의무를 반드시 준수해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "bakery": {
+        "lawSummary": "Reg (EC) 1333/2008 Annex II Cat 07",
+        "consolidatedSummary": "EU(EFSA) 베이커리 및 과자류 규정에 따르면, BHA(E320)는 최대 200 mg/kg, BHT(E321)는 최대 100 mg/kg으로 제한됩니다. 이산화티타늄(E171)은 즉시 사용을 중단해야 하며 완전히 금지됩니다. 또한, 산업용 트랜스지방은 지방 100g당 최대 2g 기준이 엄격하게 적용됩니다. 2025년 11월 지침에 따른 Annex II Cat 07의 최신 개정 목록을 반드시 교차 확인해야 합니다.",
+        "exportAlert": "한국 기업은 EU로 베이커리 및 과자류 수출 시 이산화티타늄(E171)의 사용을 즉시 중단해야 하며, 산업용 트랜스지방 함량을 지방 100g당 2g 이하로 엄격히 준수해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      }
+    },
+    "France (DGCCRF)": {
+      "fsmp": {
+        "lawSummary": "EU 2016/128, Loi Egalim 2018, Décret 2006-352",
+        "consolidatedSummary": "프랑스 FSMP는 EU 공통 기준 외에 프랑스 독자 법규를 준수해야 합니다. 특히, 2017년부터 프랑스 단독으로 Nutri-Score(A~E) 표시가 의무화되어 사전 시뮬레이션 및 라벨 반영이 필수적입니다. Loi Egalim 2018에 따라 FSMP를 포함한 특수 식품의 광고 규제가 강화되며, 성분표시 폰트 및 위치는 국내 추가 기준을 따르고, 글리포세이트 잔류량에 대한 프랑스 단독 강화 기준이 적용됩니다.",
+        "exportAlert": "프랑스 수출 제품은 EU 인증 외에 프랑스 독자 법규를 필히 확인해야 합니다. 2017년부터 의무화된 Nutri-Score(A~E) 표시를 위해 사전 시뮬레이션 및 라벨 반영이 필수이며, Loi Egalim에 따른 광고 제한 위반 여부도 별도 검토해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "plant-based": {
+        "lawSummary": "EU 2015/2283, Loi Egalim, Nutri-Score",
+        "consolidatedSummary": "식물성 음료(두유·귀리음료 등)는 'lait(우유)' 명칭 사용 및 유제품 연상 표현이 프랑스에서 전면 금지되며, DGCCRF가 적극 집행합니다. Nutri-Score 표시가 의무이며, 제품은 A 또는 B 등급 달성을 위한 포뮬레이션을 권장합니다. 식물성 단백질 성분 출처 표시에 프랑스 독자 강화 기준이 적용되며, Loi Egalim 규제에 따른 광고 표현 준수가 필수입니다. EU 공통 기준과 프랑스 독자 기준을 모두 병행 준수해야 합니다.",
+        "exportAlert": "한국 기업은 식물성 음료 제품명에 'lait' 또는 유제품을 연상시키는 어떠한 표현도 사용해서는 안 되며, 프랑스 DGCCRF의 엄격한 집행에 유의해야 합니다. Nutri-Score A 또는 B 등급을 목표로 제품을 제형화하는 것이 중요합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "grains": {
+        "lawSummary": "EU Reg 396/2005, Plan Ecophyto, Loi Egalim",
+        "consolidatedSummary": "프랑스는 Plan Ecophyto를 통해 2030년까지 농약 사용량 50% 감축 목표를 가지며, Loi Egalim Art. 44에 따라 EU에서 허용되더라도 프랑스에서 규제를 강화한 특정 농약에 대해 수입 곡류의 잔류 기준을 엄격히 적용한다. 글리포세이트 잔류 기준 집행도 강화된다. 곡물 가공 제품에는 Nutri-Score 표시가 의무화된다. 따라서 프랑스 수출 시 EU 기준 충족 외에 Plan Ecophyto 특별 감시 품목 및 Loi Egalim 잔류 강화 품목 리스트(DGCCRF 최신 버전)를 반드시 확인해야 한다.",
+        "exportAlert": "한국 기업은 프랑스의 Plan Ecophyto 목표(2030년까지 농약 사용량 50% 감축)와 Loi Egalim Art. 44에 따른 EU보다 강화된 농약 잔류 기준을 반드시 준수해야 하며, 특히 DGCCRF의 최신 잔류 강화 품목 리스트를 필히 확인해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "meat-fish": {
+        "lawSummary": "EU Reg 853/2004 & 프랑스 Code rural",
+        "consolidatedSummary": "프랑스는 EU 853/2004 외 Code rural에 따른 국내 위생 기준을 요구하며, 소·돼지·가금류 원산지 라벨 의무 및 증명 서류 완비 등 원산지 표시 규정을 엄격히 집행합니다. 육류 가공품은 Nutri-Score 의무 표시 전 사전 시뮬레이션이 필요하며, 고나트륨·고지방 제품은 Loi Egalim에 따라 광고 제한을 받습니다. 히스타민·살모넬라 EU 기준을 준수해야 합니다.",
+        "exportAlert": "프랑스는 소·돼지·가금류의 원산지 라벨 의무화 및 원산지 증명 서류 완비 등 원산지 표시 규정을 매우 엄격하게 집행하므로 관련 서류 준비에 각별히 유의해야 합니다. 또한, 육류 가공품은 Nutri-Score 의무 표시 전 반드시 사전 시뮬레이션을 수행해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "vegetables": {
+        "lawSummary": "EU Reg 396/2005, Plan Ecophyto, Loi Egalim",
+        "consolidatedSummary": "프랑스는 EU 기준 외 독자 농약 규제를 적용합니다. Plan Ecophyto에 따라 2030년까지 농약 사용량 50% 감축 목표를 가지며, 수입 채소류에는 EU 허용 농약이라도 Loi Egalim Art. 44에 의한 강화된 잔류 기준이 적용됩니다. 글리포세이트 잔류 기준 집행도 강화됩니다. 채소 가공 제품은 Nutri-Score 의무 표시가 요구되며, 수출 시 DGCCRF의 강화 품목 리스트 및 Plan Ecophyto 특별 감시 품목을 반드시 확인해야 합니다.",
+        "exportAlert": "한국 기업은 프랑스 수출 시 EU 허용 농약이라도 Loi Egalim Art. 44에 의해 강화된 잔류 기준이 적용될 수 있으므로, DGCCRF의 강화 품목 리스트와 Plan Ecophyto의 특별 감시 품목을 반드시 확인해야 합니다. 특히 2030년까지 농약 사용량 50% 감축 목표를 고려하여 잔류농약 관리에 철저한 준비가 필요합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "fruits": {
+        "lawSummary": "EU 396/2005, Plan Ecophyto, Loi Egalim 규정",
+        "consolidatedSummary": "프랑스는 Plan Ecophyto 2030 목표에 따라 수입 과일에 대한 잔류농약 관리를 강화하며, 특히 글리포세이트 모니터링을 강화합니다. Loi Egalim 법에 따라 EU에서 금지된 농약을 사용하는 국가에서 생산된 과일의 수입을 제한하는 상호주의 원칙을 추진하고 있습니다. 이 조항이 확대 시행될 경우, 해당 농약을 사용한 한국산 과일의 프랑스 수출이 제한될 수 있으므로 원산지 농약 사용 기록 준비가 필수적입니다. 또한, 과일 가공품(주스, 잼)은 Nutri-Score 의무 표시 대상이며, 수출 전 점수 확인이 필요합니다.",
+        "exportAlert": "한국은 EU에서 금지된 농약을 사용한 이력이 있을 경우, Loi Egalim 법의 상호주의 원칙에 따라 프랑스 과일 시장 수출이 제한될 수 있으므로, 원산지 농약 사용 기록을 철저히 준비해야 합니다. 과일 가공품은 Nutri-Score 의무 표시 규정을 준수하고 사전에 점수를 확인해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "dairy": {
+        "lawSummary": "프랑스 유제품: Nutri-Score 및 AOP/IGP 규제",
+        "consolidatedSummary": "프랑스는 2017년부터 유제품에 Nutri-Score를 의무 표시하며, 지방 및 포화지방 함량이 점수에 크게 영향을 미치므로 사전 시뮬레이션이 필수다. 카망베르, 브리 등 특정 프랑스 AOP/IGP 치즈 명칭은 보호되어 동일 명칭을 수출 제품에 사용할 경우 사전 법적 검토가 반드시 필요하다. EU Reg 1169/2011 Art.26에 따른 우유 원산지 표시 의무는 프랑스 국내법으로 강화 집행되므로 이에 맞는 라벨 준비가 요구되며, Loi Egalim에 따른 유제품 광고 제한도 준수해야 한다.",
+        "exportAlert": "프랑스로 유제품 수출 시, 특정 프랑스 AOP/IGP 치즈 명칭 사용이 제한되므로 수출 제품명에 대한 사전 법적 검토가 필수적입니다. 또한, 유제품에 의무 표시되는 Nutri-Score 점수(지방·포화지방 영향)를 반드시 사전 시뮬레이션하여 라벨에 반영하고, 강화된 우유 원산지 표시 규정에 맞춰 라벨을 준비해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "bakery": {
+        "lawSummary": "EU Reg 1333/2008, 프랑스 E171 금지, Nutri-Score",
+        "consolidatedSummary": "프랑스는 E171(이산화티타늄)을 EU(2022.02)보다 빠른 2021.01.01부터 베이커리·과자류에 단독 금지하며, 대체 성분 적용이 필수이다. Nutri-Score 표시가 의무이며, D등급 이하는 시장 경쟁력에 불리하다. 트랜스지방은 100g 지방당 2g 이하, PHO는 금지된다. Loi Egalim에 따라 고당류 제과 광고가 제한되며, 글리포세이트 잔류 밀가루 모니터링이 강화된다.",
+        "exportAlert": "프랑스는 E171(이산화티타늄)을 2021년 1월 1일부터 베이커리·과자류에 단독 금지하고 있어, 해당 성분 사용 제품은 프랑스 수출이 절대 금지되며 즉시 대체 성분 적용을 확인해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      }
+    },
+    "UK (FSA)": {
+      "fsmp": {
+        "lawSummary": "UK Retained EU Law Commission Delegated Reg (UK) 2021",
+        "consolidatedSummary": "영국 FSMP는 UK 잔류 EU 규정 2016/128을 따르며 \"For special medical purposes\" 표시와 영어 단독 표기가 필수다. 식품첨가물은 UK 고유 규정을 준수해야 하며, EU와 규제 분리가 가속화되어 EU 허가 신규 성분도 영국 내 별도 확인이 요구된다. MHRA에 의약품 경계 제품 여부를 사전 확인해야 한다. 특히 GB(잉글랜드, 스코틀랜드, 웨일스)와 EU NI 프로토콜 적용을 받는 북아일랜드는 규정이 상이하므로 판매 지역별 분리에 주의하고, 수출 전 FSA 최신 업데이트를 반드시 확인해야 한다.",
+        "exportAlert": "Brexit 이후 영국과 EU의 규제 분리 심화로, EU에서 허가된 신규 성분이라도 영국 내 별도 확인이 필수적이며, GB(잉글랜드, 스코틀랜드, 웨일스)와 북아일랜드 간 규정 상이점에 특히 유의하여 판매 지역별 적용 규정을 반드시 사전에 확인해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "plant-based": {
+        "lawSummary": "UK 식품안전법 및 신규식품 규제",
+        "consolidatedSummary": "영국에서 식물성 단백질(미세조류·레귀메이션 등)을 포함한 신규 식품을 유통하려면 EU 허가와 무관하게 UK 신규식품 규제에 따른 별도 승인이 필수적이다. 식물성 제품에 \"Milk\" 명칭 사용은 금지되며, 식품 첨가물 및 GMO 표시는 영국 잔류 규정을 준수해야 한다. 모든 표기사항은 영어로 단독 표기해야 하며, 최신 UK FSA 신규 성분 허가 목록을 지속적으로 확인해야 한다.",
+        "exportAlert": "한국 기업은 식물성 단백질 등 신규 식품을 영국으로 수출 시, EU에서 이미 허가받았더라도 영국 Novel Food 규제에 따라 별도 승인을 반드시 받아야 하며, 식물성 제품에 'Milk' 명칭 사용이 엄격히 금지됨을 유의해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "grains": {
+        "lawSummary": "UK Retained Regulation (EC) 396/2005 MRLs",
+        "consolidatedSummary": "영국 곡류·시리얼은 잔류농약 MRLs에 대해 UK Retained EU Reg 396/2005 기준을 따르나, Brexit 이후 독자적인 업데이트가 가능하며 EU MRL과 UK MRL이 분리 운영되므로 양쪽 모두 확인해야 합니다. 주요 오염물질 한도는 아플라톡신 B1 ≤ 2 μg/kg, DON(밀) ≤ 1,250 μg/kg입니다. 특히 Glyphosate 등 민감 농약의 MRL 변경 사항은 UK FSA 최신 목록을 정기적으로 모니터링하여 확인하는 것이 필수입니다.",
+        "exportAlert": "Brexit 이후 EU MRL과 UK MRL이 분리 운영되므로, EU MRL 충족 외에 UK FSA의 독자적인 MRL 목록(특히 Glyphosate)을 별도로 확인해야 합니다. 아플라톡신 B1은 2 μg/kg, 밀의 DON은 1,250 μg/kg 이하를 반드시 준수해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "meat-fish": {
+        "lawSummary": "UK Retained Regulation (EC) 853/2004",
+        "consolidatedSummary": "영국은 EU 853/2004의 UK Retained 버전을 적용하며, EU와 UK의 승인 도축장 목록을 분리 운영하므로 EU 승인 시설이라도 UK 별도 승인 목록 등재 여부를 반드시 확인해야 합니다. 동물성 식품은 DEFRA의 수입 허가 및 IPAFFS 시스템을 통한 사전 통지가 필수입니다. 수산물의 히스타민 한도는 100~200 mg/kg(EU와 동일)이며, 모든 표기는 영어 단독으로 해야 합니다. 북아일랜드는 EU SPS 규정을 따릅니다.",
+        "exportAlert": "한국 기업은 EU 승인 시설이라도 UK 별도 승인 목록 등재 여부를 반드시 확인해야 하며, DEFRA의 동물성 식품 수입 허가 및 IPAFFS 시스템을 통한 사전 통지를 필수로 준수해야 합니다. 수산물의 히스타민 한도는 100~200 mg/kg이므로 이를 초과하지 않도록 주의해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "vegetables": {
+        "lawSummary": "UK 잔류농약 및 식품 오염물질 규제",
+        "consolidatedSummary": "영국으로 채소를 수출 시, UK 잔류농약 최대 잔류 한계(MRL) 목록을 반드시 준수해야 합니다. 이는 EU와 분리 운영되므로 FSA 농약 잔류 데이터베이스를 정기적으로 확인해야 합니다. 특히, 클로르피리포스는 EU와 동일하게 사용이 금지됩니다. 신선 채소는 DEFRA 식물검역(Phytosanitary) 입항 신고(IPAFFS 사전 등록 필수)가 의무이며, 브렉시트 이후 일부 품목은 별도 승인된 수입 경로를 확인해야 합니다. 모든 표기는 영어로 단독 표기되어야 합니다.",
+        "exportAlert": "한국 기업은 영국으로 채소류를 수출할 때 EU 기준과 상이한 UK 잔류농약 MRL 목록을 FSA 데이터베이스에서 정기적으로 확인해야 하며, 신선 채소는 DEFRA IPAFFS에 사전 등록 후 식물검역 입항 신고가 필수입니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "fruits": {
+        "lawSummary": "UK Retained Regulation (EC) 396/2005",
+        "consolidatedSummary": "영국 과일 수출 시, UK 잔류농약 최대 잔류 한도(MRL)를 준수해야 하며, 포스트하베스트 처리제는 FSA의 최신 영국 승인 목록을 반드시 확인해야 한다. 신선 과일은 DEFRA IPAFFS 사전 등록 및 입항 신고가 필수이며, 미등록 시 입항 불가하다. 가공 과일은 UK 식품 첨가물 규정을 따르고, 모든 표기는 영어 단독 사용이 의무다. 북아일랜드 수출은 EU 규정을 따른다.",
+        "exportAlert": "한국 기업은 EU에서 승인된 포스트하베스트 처리제가 영국에서 불허될 수 있으므로, FSA의 최신 영국 승인 목록을 반드시 확인해야 한다. 또한, 신선 과일은 DEFRA IPAFFS에 사전 등록 및 입항 신고 없이는 영국 입항이 불가하다는 점을 명심해야 한다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "dairy": {
+        "lawSummary": "영국 잔류 규정 853/2004 및 유제품 위생 규정",
+        "consolidatedSummary": "영국은 EU 잔류 규정 853/2004를 따르며, 원유는 체세포수 400,000/mL 이하를 준수하고 살균이 의무화됩니다. 치즈는 영국 자체 성분 기준과 EU와 분리된 생치즈 수입 규정을 적용합니다. 모든 유제품 수입 시 DEFRA의 IPAFFS 허가가 필수이며, 제조 시설은 EU 승인 여부와 관계없이 UK DEFRA의 별도 승인 목록에 등록되어야 합니다. 표기는 영어 단독으로 해야 하며, 북아일랜드 판매 시 EU SPS 규정을 별도 적용합니다.",
+        "exportAlert": "한국 기업은 영국 유제품 수출 시 DEFRA의 동물성 식품 수입 허가(IPAFFS)를 반드시 획득하고, 제조 시설이 EU 승인 시설이라도 UK DEFRA의 별도 승인 목록에 등록되어야 함을 가장 주의해야 합니다. 원유 체세포수 400,000/mL 이하 준수 또한 중요합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "bakery": {
+        "lawSummary": "UK 잔류규정 1333/2008 & 식품안전법",
+        "consolidatedSummary": "영국 베이커리/과자류는 UK 잔류 식품첨가물 규정(EC 1333/2008 기반)을 준수해야 한다. E171(이산화티타늄)은 EU와 달리 영국 FSA의 최신 허용 여부를 반드시 확인해야 하며, Potassium Bromate 및 부분수소화유(PHO)는 전면 금지된다. 트랜스지방은 EU와 동일한 기준이 적용된다. 모든 표기는 영어로 단독 표기해야 하며, 현재 검토 중인 FOPL 도입 동향을 주시해야 한다. 북아일랜드 판매 시에는 EU 첨가물 규정을 별도 적용한다.",
+        "exportAlert": "EU에서 금지된 E171(이산화티타늄)의 영국 내 사용 여부를 영국 FSA를 통해 반드시 최신 확인해야 하며, 북아일랜드 수출 시에는 EU 첨가물 규정이 적용되므로 각별한 주의가 필요합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      }
+    },
+    "Germany": {
+      "grains": {
+        "lawSummary": "EU Reg 396/2005, LFGB",
+        "consolidatedSummary": "독일은 EU 기준보다 강화된 BfR의 글리포세이트 잔류 모니터링을 곡류에 적용하며, 검사 빈도가 높다. LFGB §5에 따라 건강 위해 식품은 즉시 판매 금지된다. 현지 소비자들은 글리포세이트 잔류에 매우 민감하므로, 저농약 또는 유기농 원료 사용이 필수적이며, 통밀·유기농 제품의 DLG 품질 인증은 시장에서 선호된다. 수출 전 BfR의 강화 모니터링 대상 농약 목록을 반드시 확인해야 한다.",
+        "exportAlert": "독일 수출 시, EU 기준보다 강화된 BfR의 글리포세이트 잔류 모니터링 대상 농약 목록을 반드시 확인해야 하며, 현지 소비자의 높은 민감도를 고려하여 저농약 또는 유기농 원료 사용을 우선 검토해야 한다. LFGB 위반 시 즉시 판매 금지 조치된다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "meat-fish": {
+        "lawSummary": "독일 육류·수산물 위생 규정 (Reg 853/2004, Tier-LMHV)",
+        "consolidatedSummary": "독일은 EU 853/2004 외 Tier-LMHV를 통해 도축·가공 위생 기준을 EU 대비 강화하여 적용한다. BfR은 참치·고등어 등 특정 수산물에 대해 히스타민 모니터링을 강화하며, 제품 내부 기준 100 mg/kg 이하를 권장한다. 비가열 육제품에는 리스테리아 관리 기준이 엄격히 적용되며, 소·돼지 육류의 원산지 표시에 대한 소비자 요구가 높아 관련 증명 서류 완비가 필수적이다.",
+        "exportAlert": "독일 수출 시, BfR이 강화 모니터링하는 참치·고등어는 히스타민 함량을 100 mg/kg 이하로 철저히 관리해야 합니다. 소·돼지 육류 수출 시에는 독일 소비자 요구가 높은 원산지 증명 서류를 반드시 완비해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      }
+    },
+    "Switzerland (FSVO/FSAS)": {
+      "fsmp": {
+        "lawSummary": "스위스 특수의료용 식품 규정 (LMVBV)",
+        "consolidatedSummary": "스위스 특수의료용 식품(FSMP)은 LMVBV 규정을 준수해야 합니다. EU와 상호인정협정(MRA)을 통해 EU 허가 성분 대부분이 인정되나, 스위스는 EU 회원국이 아니므로 EU 허가가 자동 연결되지 않아 스위스 독자 허용 목록과의 교차 확인이 필수입니다. 제품 표기는 독일어, 프랑스어, 이탈리아어 중 최소 1개 언어로 해야 하며, 유기농 원료 사용 시 Bio Suisse 또는 CH-BIO 기준 인증이 별도로 필요합니다. 또한, Swissmedic을 통한 의약품 경계 제품 사전 분류를 권고합니다.",
+        "exportAlert": "EU와 상호인정협정(MRA)이 있더라도 스위스는 EU 회원국이 아니므로 EU 허가 성분이 스위스에서 자동으로 인정되지 않습니다. 따라서 스위스 독자 허용 목록과 반드시 교차 확인하고, Swissmedic을 통한 의약품 경계 제품 사전 분류를 받아야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "plant-based": {
+        "lawSummary": "스위스 식품법 (LMG) 및 신규식품 규정 (VNL)",
+        "consolidatedSummary": "스위스에서 신규 식물성 단백질은 VNL(신규식품 규정)에 따라 사전 허가를 받아야 하며, EU Novel Food 허가 성분이라도 스위스 독자 VNL 목록과 교차 확인이 필수적이다. 제품 라벨은 독일어, 프랑스어, 이탈리아어 중 1개 이상으로 표기해야 한다. 유기농 식물성 제품은 Bio Suisse 인증이 별도로 필요하며, EU 유기농 인증만으로는 유기농 표시를 사용할 수 없다. 또한, 임시 유예 중인 GMO 규제는 최신 상황을 지속적으로 확인해야 한다.",
+        "exportAlert": "한국 기업은 신규 식물성 단백질 제품 수출 시, EU Novel Food 허가 여부와 별개로 스위스 VNL 목록을 반드시 교차 확인하여 사전 허가를 받아야 한다. 또한, 유기농 표기를 위해서는 EU 유기농 인증과 별도로 Bio Suisse 인증을 반드시 취득해야 한다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "grains": {
+        "lawSummary": "스위스 식품 잔류농약 규정 (VPRÜ)",
+        "consolidatedSummary": "스위스는 곡류·시리얼 제품에 대해 독자적인 VPRÜ 목록에 따른 잔류농약 MRL을 적용합니다. 이는 EU MRL과 대부분 동일하지만 일부 품목에서 차이가 있으므로 수출 전 스위스 VPRÜ 목록을 별도로 교차 확인해야 합니다. 아플라톡신은 EU 기준을 동일하게 적용합니다. 유기농 곡물은 Bio Suisse 기준을 준수해야 하며, \"Bio\" 표기 시에는 반드시 Bio Suisse 인증을 받아야 합니다. 또한, 제품 라벨에는 스위스 국내 언어 중 최소 1개 이상으로 표기해야 합니다.",
+        "exportAlert": "스위스 수출 시, 잔류농약 MRL은 스위스 독자 VPRÜ 목록을 적용하며 EU MRL과 일부 차이가 있으므로 반드시 개별 품목별 MRL을 확인해야 합니다. 또한, 유기농 곡물은 Bio Suisse 인증 없이는 \"Bio\" 표기를 할 수 없습니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "meat-fish": {
+        "lawSummary": "스위스 LMG/VLtH (동물성 식품)",
+        "consolidatedSummary": "스위스는 동물성 식품(VLtH 준수) 수입 시, EU 승인 도축시설을 MRA를 통해 대부분 인정하나, 특정 품목은 FSVO의 별도 승인이 필수이다. 히스타민 기준은 EU와 동일하게 100~200 mg/kg을 적용한다. 라벨은 국내 언어 중 최소 1개 이상으로 표기해야 하며, 수의사 위생 증명서가 필수이다. 스위스 도착 시 수의사 검역 절차에 대한 사전 안내가 권장된다.",
+        "exportAlert": "EU 승인 시설이라도 일부 품목은 스위스 FSVO의 별도 승인이 필요하므로, 수출 전 반드시 확인해야 하며, 스위스 도착 전 수의사 검역 절차를 사전에 안내하는 것이 중요하다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "vegetables": {
+        "lawSummary": "VPRÜ 잔류농약 기준",
+        "consolidatedSummary": "스위스 채소류는 VPRÜ 잔류농약 기준을 적용하며, 이는 EU MRL과 대부분 유사하나 수출 전 FSVO 데이터베이스를 통한 교차 확인이 필수적입니다. 신선 채소는 스위스 식물검역법에 따른 증명서가 필수이며, 이는 EU와 별개의 절차입니다. 유기농 채소는 Bio Suisse 또는 CH-BIO 인증이 요구되며, 해당 인증 없이 \"BIO\" 표기는 허용되지 않습니다. 가공 채소는 스위스 국내 언어 중 최소 1개 언어로 표기해야 합니다.",
+        "exportAlert": "스위스의 VPRÜ 잔류농약 기준은 EU MRL과 차이가 있으므로, 반드시 수출 전 FSVO 데이터베이스를 통해 품목별 잔류농약 허용 기준을 확인해야 합니다. 또한, 신선 채소의 경우 EU와 별개인 스위스 식물검역 절차에 따라 증명서를 필수적으로 제출해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "fruits": {
+        "lawSummary": "VPRÜ (잔류농약) 및 식물성 식품 법규",
+        "consolidatedSummary": "스위스 과일류는 VPRÜ(잔류농약) 기준을 준수해야 하며, 이는 EU MRL과 대부분 동일하나 일부 차이가 있으므로 수출 전 반드시 확인이 필요하다. 특히, 포스트하베스트 처리제 허용 목록도 EU와 다를 수 있다. 가공 과일 제품은 LMG 식품 안전법을 준수해야 하며, 신선 과일은 식물검역 증명서가 필수이다. 유기농 과일의 경우 Bio Suisse 인증이 사실상 시장 진입의 필수 요건이다. 모든 제품은 국내 언어 중 최소 1개로 라벨링되어야 한다.",
+        "exportAlert": "한국 기업은 스위스로 과일류 수출 전, VPRÜ 잔류농약 기준이 EU MRL과 일부 다를 수 있음을 인지하고 정확한 허용 수치를 반드시 확인해야 합니다. 특히 포스트하베스트 처리제 허용 목록도 EU와 상이할 수 있으므로 면밀한 검토가 필요합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "dairy": {
+        "lawSummary": "VLtH, Milchverordnung, LMG",
+        "consolidatedSummary": "스위스 유제품은 VLtH(동물성 식품 규정)와 스위스 고유의 Milchverordnung(우유 성분 기준)을 준수해야 합니다. EU MRA를 통해 EU 승인 시설은 일반적으로 인정되나, Milchverordnung의 독자적 성분 기준은 EU와 유사해도 항목별 개별 확인이 필수입니다. 모든 유제품은 살균 의무가 있으며, 국내 언어 중 최소 1개로 표기해야 합니다. 유기농 유제품은 Bio Suisse 인증이 필요하며, 수출 시 수의사 위생증명서가 필수이며 FSVO 특정 양식 요구 여부를 사전 확인해야 합니다.",
+        "exportAlert": "EU MRA로 EU 승인 시설은 인정되나, 스위스 Milchverordnung의 독자적 성분 기준은 EU와 유사해도 항목별 확인이 필수입니다. 또한, 수출 시 필수인 수의사 위생증명서가 스위스 FSVO 특정 양식 요구 여부를 사전에 반드시 확인해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "bakery": {
+        "lawSummary": "스위스 식품첨가물 및 베이커리 규정",
+        "consolidatedSummary": "스위스 베이커리 및 과자는 식품첨가물 규정(ZuV)을 준수해야 하며, 이는 EU Reg 1333/2008과 대부분 유사하나 일부 품목은 스위스 독자 결정이므로 FSVO 최신 목록을 확인해야 합니다. 특히 E171(이산화티타늄)은 EU와 달리 스위스에서 독자 검토 중이므로 현황을 FSVO에 필수적으로 확인해야 합니다. Potassium Bromate는 금지됩니다. 유기농 베이커리는 Bio Suisse 인증이 스위스 시장 진출의 필수 요건이며, 제품 라벨은 스위스 국내 언어 중 최소 1개로 표기되어야 합니다.",
+        "exportAlert": "스위스 수출 시 식품첨가물(ZuV) 목록, 특히 E171(이산화티타늄)의 스위스 현황을 반드시 FSVO에서 최신 정보로 확인해야 하며, EU 규정과 다를 수 있습니다. 유기농 베이커리는 Bio Suisse 인증이 필수이며 Potassium Bromate 사용은 전면 금지됩니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      }
+    },
+    "Nordic/Hungary": {
+      "fsmp": {
+        "lawSummary": "헝가리 NETA, 핀란드 가당음료세, 덴마크 설탕세",
+        "consolidatedSummary": "헝가리는 고당류·고카페인·에너지드링크에 건강세(음료 8~40 HUF/L)를, 핀란드는 가당음료에 설탕 함량에 따라 €0.11/L(0.5~8g/100mL) 또는 €0.22/L(8g/100mL 초과)의 세금을 부과한다. 덴마크도 설탕세 논의를 지속 중이다. EU 단일 규정과 달리 개별 국가의 세금이 가격 경쟁력에 직접 영향을 미치므로, 저당·무가당 포뮬레이션으로 추가 세금 부담을 회피하는 전략이 중요하다.",
+        "exportAlert": "헝가리와 핀란드로 FSMP를 수출할 경우, 제품의 당류 함량에 따라 헝가리는 음료 8~40 HUF/L, 핀란드는 €0.11/L 또는 €0.22/L의 추가 세금이 부과되므로, 저당/무가당 포뮬레이션 전략을 통해 가격 경쟁력 확보에 주의해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "plant-based": {
+        "lawSummary": "HU NETA, FI 음료세, SE 성분 권고",
+        "consolidatedSummary": "헝가리는 식물성 가당 음료 및 에너지드링크에 건강세를, 핀란드는 당류 함량 기준에 따라 식물성 음료에 가당 음료세를 적용한다. 스웨덴 Livsmedelsverket은 영양 프로파일 권고 기준을 강화하며, Nutri-Score는 프랑스 수출 시 의무이나 기타 북유럽 국가에서는 자율 권장된다. 수출 전 해당 국가의 당류 세금 부과 여부를 확인하고 저당 설계를 통해 세금 부담을 줄이는 것이 중요하다.",
+        "exportAlert": "헝가리와 핀란드로 식물성 음료 수출 시 해당 국가의 당류 함량 기준에 따른 세금 부과 여부를 사전에 반드시 확인해야 한다. 저당 설계는 추가 세부담을 회피하는 효과적인 방법이다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "grains": {
+        "lawSummary": "HU NETA, FI/DK 설탕세, EU 영양표기",
+        "consolidatedSummary": "핀란드 및 덴마크는 곡물 기반 가당 음료(귀리·쌀 음료 등)에 가당/설탕세를 부과할 수 있으며, 특히 덴마크는 설탕세 부과 품목 리스트 확인이 필요합니다. 헝가리 NETA는 가당 시리얼바 및 곡류 스낵류를 포함하여 검토됩니다. EU 회원국별로 Nutri-Score는 프랑스에서 의무, 독일·벨기에에서는 자율 권장됩니다. 북유럽으로 곡물 음료 수출 시 당류 함량에 따른 세율 적용 여부 확인이 필수적이며, 저당 포뮬레이션은 세금 부담을 줄여 시장 경쟁력 확보에 유리합니다.",
+        "exportAlert": "한국 기업은 북유럽(핀란드, 덴마크 등)으로 귀리·쌀 음료 등 곡물 기반 가공식품 수출 시, 각 국가의 당류 함량에 따른 최신 설탕세(가당 음료세) 부과 기준을 반드시 확인하여 세금 부담을 예측하고 저당 제품으로 경쟁력을 확보해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "meat-fish": {
+        "lawSummary": "북유럽 식품 안전 및 육류·어류 규제",
+        "consolidatedSummary": "북유럽(노르웨이, 스웨덴)은 수산물 항생제 잔류 기준이 EU보다 엄격하여 강화된 모니터링이 필수적입니다. 육류는 원산지 표시에 대한 소비자 요구가 높아 QR코드 기반 생산 이력 정보 제공이 일반화되어 있습니다. 덴마크와 스웨덴은 어류 미세플라스틱 오염 관리를 위한 자체 가이드라인을 운영하며, 헝가리 NETA는 훈제·조림 등 일부 어류 가공 제품에 대한 규제 적용 여부 확인이 필요합니다.",
+        "exportAlert": "북유럽 시장 진출 시, 노르웨이·스웨덴의 EU보다 엄격한 수산물 항생제 잔류 기준에 대한 강화 모니터링을 필수로 확인해야 합니다. 또한, 소비자들의 높은 원산지 투명성 요구를 충족시키기 위해 QR코드 기반의 생산 이력 정보 제공을 적극 검토해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "vegetables": {
+        "lawSummary": "북유럽/헝가리 채소 규제 및 유기농 기준",
+        "consolidatedSummary": "북유럽(스웨덴, 노르웨이)은 유기농 채소에 대해 EU 기준보다 강화된 농약 잔류 불검출 목표를 요구한다. 헝가리 NETA 2011은 가당 채소 가공 음료 및 주스에 세금을 부과할 수 있으며, 핀란드도 채소 및 과채 혼합 주스의 가당 음료세 적용 여부를 확인해야 한다. Nutri-Score 자율 적용 국가에서는 가공 채소 제품에 점수 표시를 통해 마케팅 경쟁력을 높일 수 있다.",
+        "exportAlert": "북유럽(스웨덴, 노르웨이)에 유기농 채소 수출 시 EU 기준 대비 강화된 농약 잔류 불검출 목표 등 국가별 추가 인증 요건을 사전 확인해야 하며, 핀란드 및 헝가리로 채소 혼합 주스 수출 시 가당 여부에 따른 세금 부과 대상 포함 여부를 면밀히 검토해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "fruits": {
+        "lawSummary": "핀란드/헝가리 가당음료세 및 덴마크 설탕세 논의",
+        "consolidatedSummary": "핀란드 가당음료세는 당류 0.5g/100mL 초과 가당 과일 주스 및 넥타르에 부과됩니다. 헝가리는 NETA를 통해 가당 과일 음료와 과일 에너지드링크에 세금을 부과하며, 덴마크는 과일 주스를 포함한 설탕세 재도입을 논의 중입니다. 100% 무가당 과일 주스의 핀란드 세금 면제 여부를 확인하고, 수출 시 저당 설계를 통해 세부담을 회피하는 것이 권장됩니다. 독일·벨기에 등 Nutri-Score 권장 국가에서는 과일 제품 점수 표시로 시장 경쟁력을 강화할 수 있습니다.",
+        "exportAlert": "핀란드(당류 0.5g/100mL 초과) 및 헝가리로 가당 과일 음료 수출 시 높은 세율이 부과되므로, 반드시 사전 세율을 계산하고 저당 제품 설계를 고려하여 추가 세부담을 최소화해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "dairy": {
+        "lawSummary": "핀란드/헝가리 가당 유제품세 및 북유럽 영양 권고",
+        "consolidatedSummary": "핀란드와 헝가리는 가당 유제품 음료(요거트 드링크, 밀크 음료 등)에 대해 당류 함량 기준에 따라 세금(핀란드 가당음료세, 헝가리 NETA)을 부과합니다. 이는 EU 규정과 상이할 수 있으므로, 수출 전 세율 부과 여부를 반드시 확인해야 합니다. 스웨덴 Livsmedelsverket은 유제품의 포화지방 저감을 권고하며, 이는 Nutri-Score 점수에 영향을 미쳐 고지방 제품은 낮은 점수를 받을 수 있습니다. 북유럽 소비자는 저당·저지방 유제품을 선호하므로, 저지방 제품 라인 병행 검토가 필요합니다.",
+        "exportAlert": "핀란드와 헝가리로 가당 유제품 음료를 수출할 경우, 당류 함량 기준에 따른 세금(가당음료세, NETA) 부과 여부 및 세율을 반드시 사전 확인해야 합니다. 또한, 북유럽 시장은 저당·저지방 유제품 선호도가 높으므로, 포화지방이 높은 제품은 Nutri-Score 점수 하락으로 경쟁력이 약화될 수 있음을 고려해 저지방 제품 라인을 함께 검토해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "bakery": {
+        "lawSummary": "[HU] NETA 2011 (제과·스낵) / [FI] Soft Drink",
+        "consolidatedSummary": "[생성 실패] [EU Divergence] 헝가리 NETA: 고당류 과자·사탕·초콜릿바 건강세 부과(상품별 차등세율). 핀란드 가당음료세: 음료성 제과(가당 시럽·초콜릿 음료) 포함 여부 확인.",
+        "exportAlert": "노르웨이 설탕세가 제과류 원가에 직접 영향 — 수출 가격 경쟁력 분석 필수. 헝가리 NETA 제과 세율표 최신 버전 확인 및 제품별 세금 부담 계산. 저당·무가당 제과 라인 개발로",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      }
+    },
+    "USA (FDA)": {
+      "fsmp": {
+        "lawSummary": "21 CFR 101.9(j)(8) — Medical Food Defini",
+        "consolidatedSummary": "[생성 실패] 고정된 다량영양소 비율 없음. 의사 평가를 통해 \"특수한 영양 요건\"을 충족해야 함. 반드시 의료 감독 하에 사용.",
+        "exportAlert": "수입 시 FSVP (21 CFR Part 1, Subpart L) 준수 필수. FSMA 204 이력추적 기록은 2028년부터 적용.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "plant-based": {
+        "lawSummary": "FDA Plant-Based Labeling Guidance / 21 C",
+        "consolidatedSummary": "[생성 실패] \"우유(Milk)\" / \"육류(Meat)\" 명칭 사용 제한 (표준 정의 제품에만 허용). 대체 단백질 제품은 별도 명칭 사용 권장. 대두(Soy)는 GRAS 인정.",
+        "exportAlert": "Plant-based meat는 USDA FSIS가 아닌 FDA 관할. 단백질 소화율(PDCAAS) 및 영양 라벨 정확도 검토 필수.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "grains": {
+        "lawSummary": "21 CFR Part 137 — Cereal Flours and Rela",
+        "consolidatedSummary": "[생성 실패] 강화밀가루 성분 기준(티아민·리보플라빈·나이아신·철분 필수 강화). 전곡물 표시 기준은 FDA 가이던스 준수. 잔류농약 MRL은 EPA 설정.",
+        "exportAlert": "영양 강화(Enrichment) 기준 충족 여부 라벨 검토 필수. 전곡물(Whole grain) 표시 시 FDA 정의 기준 확인.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "meat-fish": {
+        "lawSummary": "FMIA / PPIA / EPIA — USDA FSIS / 21 CFR ",
+        "consolidatedSummary": "[생성 실패] 모든 도축에 대한 전·사후 검사 의무. 수산물: HACCP 21 CFR 123 적용. 달걀: 액란 살균 의무(EPIA). 즉석섭취식품(RTE) 내 리스테리아 불검출.",
+        "exportAlert": "FSIS 관할(육류·가금류)과 FDA 관할(수산물·알가공품) 구분 필수. FSMA 204 이력추적(traceability) 적용 대상에 수산물 포함(2028).",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "vegetables": {
+        "lawSummary": "21 CFR Part 112 — Produce Safety Rule (F",
+        "consolidatedSummary": "[생성 실패] 농업용수 수질 기준. 생물학적 토양 개량제 규정. 작업자 건강·위생 기준. 새싹류: 추가 미생물 검사. 적용 대상 농산물 목록 확인 필수.",
+        "exportAlert": "FSMA Produce Safety Rule 적용 규모·품목 확인. 미국 직수출 시 FSVP(Foreign Supplier Verification) 필수.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "fruits": {
+        "lawSummary": "21 CFR Part 112 — Produce Safety / EPA P",
+        "consolidatedSummary": "[생성 실패] FSMA Produce Safety Rule 대부분 과일 적용. 농업용수·토양 개량제·작업자 위생 기준 준수. EPA가 농약별·품목별 MRL(허용한계) 설정.",
+        "exportAlert": "FDA Import Alert 확인 후 수출. 표면처리제(왁스 등) 사용 시 표시 의무 및 성분 허가 여부 확인.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "dairy": {
+        "lawSummary": "21 CFR Part 131 — Milk & Cream / PMO (Gr",
+        "consolidatedSummary": "[생성 실패] Grade A 기준: 체세포수 ≤ 750,000/mL. 살균 의무. 치즈·버터·요거트 성분 기준 (21 CFR Parts 131-135). 영양성분표 내 첨가당 표시 의무.",
+        "exportAlert": "PMO 최신 버전(2023 edition) 준수 여부 확인. 유사 유제품(lactose-free, plant-based) 명칭 사용 시 별도 FDA 기준 적용.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "bakery": {
+        "lawSummary": "21 CFR Part 136-137 — Bakery Products / ",
+        "consolidatedSummary": "[생성 실패] PHO(부분수소화유) 사용 금지. 빵·롤 성분 규격 기준. 첨가당 표시 의무. 전면 영양 표시(FoPL) 규칙 제안 중(2025).",
+        "exportAlert": "PHO 성분 포함 제품 미국 수출 불가. FoPL 제안 규칙 모니터링 및 라벨 개정 사전 준비 권장.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      }
+    },
+    "Japan (CAA)": {
+      "fsmp": {
+        "lawSummary": "特別用途食品制度 — Consumer Affairs Agency (2024",
+        "consolidatedSummary": "[생성 실패] 병자용 특별용도식품 허가 필요. 2024.04.01 관할청 MHLW → 소비자청(CAA) 이관 완료. 신규 인허가 창구: caa.go.jp.",
+        "exportAlert": "이관 완료(2024.04.01) — 소비자청(CAA) 창구로 신규 허가 신청. 기능성표시식품(機能性表示食品)과 특별용도식품 관할 기관 혼동 주의.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "plant-based": {
+        "lawSummary": "大豆 / 植物性たんぱく 품질 기준 (CAA 이관 2026.04.01)",
+        "consolidatedSummary": "[생성 실패] JAS 표준 준수. 대두 알레르겐 표시 의무. 2026.04.01부로 관할청이 소비자청(CAA)으로 전환.",
+        "exportAlert": "대두 함유 제품의 알레르겐 표시 폰트·위치 규정 확인. CAA 이관 후 인허가 창구 업데이트.",
+        "enforcementDate": "2026.04.01",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "grains": {
+        "lawSummary": "農薬残留規制 ポジティブリスト制度 (Positive List)",
+        "consolidatedSummary": "[생성 실패] 목록 외 농약은 기본 0.01 ppm 적용. 소맥: Glyphosate 30 ppm. 현미: Cadmium 0.4 mg/kg. 2026.04.01 CAA 이관.",
+        "exportAlert": "Positive List 외 성분 검출 시 전량 수입금지. 잔류농약 검사 성적서 항목 목록 주기적 업데이트 필요.",
+        "enforcementDate": "2026.04.01",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "meat-fish": {
+        "lawSummary": "食品衛生法 食肉·魚介類 / 乳肉水産基準 (2026.04.01 CAA 이관",
+        "consolidatedSummary": "[생성 실패] 식육 위생감시원 검사 의무. 소고기: BSE 검사 적용. 어패류: 히스타민 200 mg/kg 이하. 2026.04 CAA 이관 후 인허가 창구 변경.",
+        "exportAlert": "CAA 이관 전후 수출 서류상의 관할기관명 변경 확인. 수산물 이력추적 시스템 CAA 요건 준수.",
+        "enforcementDate": "2026.04.01",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "vegetables": {
+        "lawSummary": "農薬残留ポジティブリスト制度 / 食品衛生法",
+        "consolidatedSummary": "[생성 실패] 목록 외 농약: 0.01 ppm 일률 기준. 2026.04.01 CAA 이관. 수입 검사 강화 품목 지정 주기적 변경.",
+        "exportAlert": "최신 강화 검사 품목(요주의리스트) 확인 후 수출 전략 조정. 0.01 ppm 기준 초과 시 전량 수입 금지.",
+        "enforcementDate": "2026.04.01",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "fruits": {
+        "lawSummary": "農薬残留ポジティブリスト / 果実基準 (2026.04.01 CAA 이관)",
+        "consolidatedSummary": "[생성 실패] 0.01 ppm 일률 기준 적용. 수입 감귤류: Thiabendazole 사용 시 표시 의무. 중국산 과일 검역 강화 지속.",
+        "exportAlert": "소비자청 이관 후 수입 금지·제한 과일 리스트 최신 버전 확인. 검역 대상 병해충 기준도 함께 체크.",
+        "enforcementDate": "2026.04.01",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "dairy": {
+        "lawSummary": "乳及び乳製品の成分規格等に関する省令",
+        "consolidatedSummary": "일본의 유제품 규제는 2026년 4월 1일부터 소비자청(CAA)으로 관할이 이관되며, 관련 허가·신고 창구가 변경된다. 우유 성분은 유지방 3.0% 이상, 무지유고형분 8.0% 이상이어야 하며, 살균 및 우유 알레르겐 의무 표시가 요구된다. 기능성표시식품 중 유제품 기반 제품도 CAA 심사 대상이 된다.",
+        "exportAlert": "한국 기업은 일본 수출 시 우유의 유지방 3.0% 이상, 무지유고형분 8.0% 이상 기준을 충족해야 하며, 2026년 4월 1일부터 소비자청(CAA)으로 이관되는 허가·신고 절차 변경에 유의해야 합니다.",
+        "enforcementDate": "2026.04.01",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "bakery": {
+        "lawSummary": "菓子類食品規格 및 식품첨가물공정서",
+        "consolidatedSummary": "일본 베이커리·과자는 2026년 4월 1일 소비자청(CAA)으로 이관됨에 따라 신제품 신고 절차를 업데이트해야 합니다. 보존료, 산화방지제 등 첨가물 기준을 준수해야 하며, 알레르겐은 8종 의무 및 20종 권장 표시가 필수이고, 특히 제과류 알레르겐 표시의 폰트와 위치 기준을 재확인해야 합니다.",
+        "exportAlert": "2026년 4월 1일 일본 소비자청(CAA)으로 이관되므로, 신제품 신고 절차를 반드시 업데이트하고, 의무 8종 및 권장 20종 알레르겐 표시의 폰트·위치 기준을 재확인해야 합니다.",
+        "enforcementDate": "2026.04.01",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      }
+    },
+    "Thailand (Thai FDA)": {
+      "fsmp": {
+        "lawSummary": "태국 식품법 B.E. 2522 - 특수 의료 목적 식품",
+        "consolidatedSummary": "태국 FSMP는 태국 FDA 사전 등록 및 수입 허가가 필수이며, 성분 기준은 Codex를 따른다. Cyclamate 사용은 전면 금지된다. 모든 제품 라벨은 태국어로 표시해야 한다. 특히 Tartrazine은 2025년 7월부터 50mg/kg 한도로 강화되므로 해당 기준을 반드시 확인해야 한다. 2026년 4월부터 시행될 온라인 허가 갱신 시스템에 미리 등록하는 것이 권장된다.",
+        "exportAlert": "한국 기업은 태국으로 FSMP를 수출할 때 Cyclamate 함유 제품은 전면 금지되어 수출이 불가하다. 또한, Tartrazine은 2025년 7월부터 50mg/kg 한도로 강화되므로 이 기준을 반드시 준수해야 한다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "plant-based": {
+        "lawSummary": "태국 식품법 B.E. 2522 및 TISI 2413",
+        "consolidatedSummary": "식물성 단백질 식품(두유 포함)은 태국 FDA 등록이 의무화되어 있으며, 성분은 Codex 기준을 따라야 합니다. 감미료 Cyclamate는 전면 금지되며, 제품 라벨은 태국어로 표시되어야 합니다. 포장재는 중금속 기준을 준수해야 하고, 색소 Tartrazine은 50mg/kg을 초과할 수 없습니다. TISI 인증 여부를 사전에 확인하는 것이 권장됩니다.",
+        "exportAlert": "감미료 Cyclamate가 함유된 식물성 제품은 태국으로 수출이 전면 금지됩니다. 또한, 색소 Tartrazine은 제품 내 50mg/kg을 초과하여 사용할 수 없으니 주의해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "bakery": {
+        "lawSummary": "MOPH Notification No. 468 (과자·빵류 첨가물)",
+        "consolidatedSummary": "MOPH Notification No. 468 발효일인 2025년 12월 12일부터 Cyclamate 및 Potassium Bromate의 식품 내 사용이 전면 금지되며, 이를 함유한 제품은 태국으로 수출할 수 없습니다. 타르트라진(Tartrazine, E102)은 최대 50mg/kg으로 허용 기준이 강화되었으며, 그 외 보존료 및 착색료도 No. 468의 허용 목록을 준수해야 합니다. 모든 제품에는 태국어 라벨 부착이 의무화되며, 2026년 4월부터 시행될 수입 허가 갱신 온라인 시스템 등록에 미리 대비해야 합니다.",
+        "exportAlert": "Cyclamate 및 Potassium Bromate 함유 제품은 태국 수출이 전면 금지됩니다. 또한, 타르트라진(Tartrazine, E102)은 2025년 12월 12일부터 최대 50mg/kg까지만 허용되므로 해당 기준 초과 여부를 철저히 확인해야 합니다.",
+        "enforcementDate": "2025.12.12",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      }
+    },
+    "Taiwan (TFDA)": {
+      "fsmp": {
+        "lawSummary": "특수영양식품 관리辦法 — TFDA",
+        "consolidatedSummary": "대만 TFDA는 특수의료용 식품(FSMP)에 대해 임상 데이터 제출 및 수입 등록을 의무화합니다. 특히 당뇨 및 종양 환자용 제품은 강화된 임상 근거가 요구되며, 이는 2025년 9월 15일부터 개정된 요건에 따라 시행됩니다. GABA 성분 포함 제품은 2025년 2월부터 별도 사용 제한 기준을 준수해야 합니다.",
+        "exportAlert": "한국 기업은 대만으로 FSMP 수출 시, 2025년 9월 15일 시행되는 개정 임상데이터 요건에 맞춰 임상 근거를 반드시 제출해야 하며, 당뇨·종양 환자용 제품은 더욱 강화된 근거가 요구됩니다. GABA 성분 포함 제품은 2025년 2월부터 적용되는 별도 사용 제한 기준을 확인해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "plant-based": {
+        "lawSummary": "TFDA 식물성 단백 식품 기준",
+        "consolidatedSummary": "대만 TFDA 식물성 단백 식품은 2025년 11월 26일부터 개정되는 잔류농약 MRL(최대 잔류 허용량) 기준을 반드시 준수해야 합니다. 이를 위해 식물성 원료에 대한 농약 잔류 검사 성적서 구비 및 즉각적인 기준 충족 여부 검토가 필수적이며, 수입 등록 및 성분표 제출, 그리고 중국어 표시사항 의무화 등 기본 요건도 충족해야 합니다.",
+        "exportAlert": "한국 기업은 2025년 11월 26일부로 개정 적용되는 대만 TFDA의 식물성 단백 식품 잔류농약 MRL 기준을 즉시 확인하고, 모든 식물성 원료에 대한 최신 농약 잔류 검사 성적서를 반드시 구비하여 제출해야 합니다.",
+        "enforcementDate": "2025.11.26",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "grains": {
+        "lawSummary": "TFDA 잔류농약 기준",
+        "consolidatedSummary": "2025년 11월 26일부터 TFDA 곡류 잔류농약 기준이 전면 개정 시행된다. 이에 따라 수입 곡류에 대한 검사가 강화되며, 개정된 최대 잔류 허용량(MRL)으로 인해 일부 항목의 기준이 강화된다. 모든 수출 곡류는 성분표 및 원산지 표시가 의무화되며, 기존 검사 성적서를 최신 기준값에 맞춰 재검토하고 적용 여부를 확인하는 것이 필수적이다.",
+        "exportAlert": "한국 기업은 2025년 11월 26일 시행되는 TFDA의 개정된 곡류 잔류농약 기준, 특히 강화된 MRL을 반드시 준수해야 한다. 수출 전 최신 기준에 맞춰 잔류농약 검사를 재확인하고 성적서를 업데이트하는 것이 중요하다.",
+        "enforcementDate": "2025.11.26",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "meat-fish": {
+        "lawSummary": "TFDA 畜禽/수산물 잔류농약 기준 개정",
+        "consolidatedSummary": "TFDA는 2025년 11월 26일부터 축산물 및 수산물 잔류농약 기준(MRL)을 전면 개정한다. 이에 따라 수입 축산물은 의무적으로 검역 증명서를 제출해야 하며, 모든 관련 제품은 중국어 라벨 표시가 필수이다. 수출 시 개정된 MRL 기준을 충족하는 검사 성적서를 반드시 구비해야 하며, 특히 테트라사이클린류 등 강화된 항생제 잔류 기준 항목을 우선적으로 확인해야 한다.",
+        "exportAlert": "2025년 11월 26일부터 전면 개정되는 축산물 및 수산물 잔류농약(MRL) 기준을 충족하는 검사 성적서를 반드시 구비해야 하며, 특히 테트라사이클린류 등 강화된 항생제 잔류 기준 항목을 최우선으로 확인해야 한다. 또한, 수입 축산물은 검역 증명서 제출이 의무화된다.",
+        "enforcementDate": "2025.11.26",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "vegetables": {
+        "lawSummary": "TFDA 채소류 잔류농약 기준 (2025.11.26 개정)",
+        "consolidatedSummary": "2025년 11월 26일부터 TFDA 채소류 잔류농약 기준이 전면 개정 및 발효됩니다. 이 개정으로 수입 검사가 강화되며, 새로운 MRL(최대잔류허용량) 기준값에 맞춰 원료를 사전에 면밀히 검토해야 합니다. 또한, 모든 수입 채소류는 원산지 표시와 중국어 라벨링이 의무화됩니다.",
+        "exportAlert": "2025년 11월 26일 발효되는 TFDA의 채소류 잔류농약 기준 전면 개정에 따라, 수출 전 반드시 개정된 MRL 기준값을 면밀히 확인하고 원료를 사전 검토하여 강화된 수입 검사에 대비해야 합니다.",
+        "enforcementDate": "2025.11.26",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "fruits": {
+        "lawSummary": "TFDA 잔류농약 기준 (2025.11.26 개정)",
+        "consolidatedSummary": "TFDA는 2025년 11월 26일부터 과일류 잔류농약 기준을 개정, 발효하며 수입 검사를 강화한다. 모든 수입 과일류는 중국어 원산지 및 성분 표시가 의무화된다. 수출 기업은 개정되는 기준값 중 특히 열대 과일의 변경 사항을 우선적으로 확인하고, 기존 검사 성적서를 재검토하여 변경된 기준에 부합하는지 사전 대비해야 한다.",
+        "exportAlert": "한국 기업은 2025년 11월 26일 시행되는 TFDA의 과일류 잔류농약 기준 개정에 따른 변경된 기준값(특히 열대 과일)과 강화된 수입 검사에 철저히 대비해야 하며, 중국어 원산지 및 성분 표시 의무를 준수해야 합니다.",
+        "enforcementDate": "2025.11.26",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "dairy": {
+        "lawSummary": "대만 유제품 위생표준 및 명칭표시 규정",
+        "consolidatedSummary": "대만 유제품 규정은 2025년 6월 24일부터 개정 시행된다. 주요 변경 사항은 유지방 함량에 따른 제품 명칭 기준이며, '鮮乳' 등 특정 명칭 사용 요건이 변경되므로 반드시 재검토해야 한다. 또한, 모든 수입 유제품은 검역 성적서 제출이 의무화되므로 해당 요건을 충족해야 한다.",
+        "exportAlert": "한국 기업은 2025년 6월 24일 시행되는 대만의 유제품 명칭 및 표시 규정 변경에 특히 유의해야 한다. 유지방 함량에 따른 '鮮乳' 등 제품명 사용 요건을 필히 재확인하고, 수입 유제품 검역 성적서 제출 의무를 준수해야 한다.",
+        "enforcementDate": "2025.06.24",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "bakery": {
+        "lawSummary": "TFDA GABA 사용 범위 및 제한 기준 (제과류)",
+        "consolidatedSummary": "2025년 2월 13일부터 GABA(γ-아미노뷰티르산) 함유 제과류에 대한 사용 제한 및 의무 표시가 시행됩니다. 모든 GABA 함유 제과 제품은 TFDA의 GABA 사용 기준과 중국어 표시 의무를 포함한 표시사항을 준수해야 하며, 보존료 및 감미료 등 다른 식품첨가물의 사용 한도 또한 지켜야 합니다. 관련 제품의 전반적인 검토 및 표시사항 재검토가 필요합니다.",
+        "exportAlert": "2025년 2월 13일 이후 대만으로 베이커리·과자류를 수출하는 한국 기업은 GABA 함유 제품에 대한 TFDA의 새로운 사용 제한 기준을 반드시 준수해야 합니다. 특히 GABA 함유량 규제 및 의무적인 중국어 표시 요건을 철저히 확인하여 규제 미준수로 인한 불이익이 없도록 주의해야 합니다.",
+        "enforcementDate": "2025.02.13",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      }
+    },
+    "Philippines (FDA PH)": {
+      "fsmp": {
+        "lawSummary": "FDA PH 식품법, FSMP 및 신규식품 규정",
+        "consolidatedSummary": "필리핀 FDA에 FSMP 제품을 수출하기 위해서는 LTO(License to Operate)와 CPR(Certificate of Product Registration) 취득이 필수입니다. FSMP는 처방 기반 의료영양식품(Medical Nutrition)으로 분류되어 일반 식품과 별도의 심사 절차를 거칩니다. 제품에 신규 성분이 포함된 경우에는 Novel Food 허가 절차를 추가적으로 이행해야 합니다.",
+        "exportAlert": "한국 기업은 필리핀 FDA LTO 및 CPR 취득이 필수이며, FSMP가 처방 기반 의료영양식품으로 별도 심사됨을 인지해야 합니다. 특히, 신규 성분 포함 시 추가적인 Novel Food 허가 절차까지 고려하여 철저한 사전 준비와 긴 등록 기간을 예상해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "plant-based": {
+        "lawSummary": "필리핀 FDA 식물성 식품 및 노블푸드 규제",
+        "consolidatedSummary": "필리핀에서 식물성 식품을 유통하려면, 노블푸드 성분에 대한 사전 승인이 필수적이다. 또한, 제품 등록(CPR) 및 수입 허가서(Import Permit)를 반드시 발급받아야 한다. 'Plant-based' 표기는 가능하나, 영양 성분 라벨링은 필리핀 FDA 기준을 철저히 준수해야 한다.",
+        "exportAlert": "한국 기업은 필리핀으로 식물성 식품 수출 전, 노블푸드 성분 사전 승인, 제품 등록(CPR), 수입 허가서(Import Permit)를 반드시 취득해야 한다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "bakery": {
+        "lawSummary": "FDA AO 2014-0030 외 제과류 규정",
+        "consolidatedSummary": "필리핀 FDA는 베이커리·과자류에 대해 CPR 등록 및 LTO 취득을 의무화하며, Tartrazine(E102) 등 아조 계열 색소 사용 시 알레르겐 표기가 필수적이다. 수입 베이커리류는 식물위생증명서(phytosanitary certificate) 및 원산지 증명서를 제출해야 하며, BFAD 식품첨가물 기준 및 Codex Stan 118을 준수하여 제품 안전성과 추적 가능성을 확보해야 한다.",
+        "exportAlert": "한국 기업은 필리핀으로 베이커리류 수출 시 제품 CPR 등록이 필수이며, Tartrazine(E102) 등 아조 계열 색소 사용 제품은 알레르겐 표기 의무를 준수해야 한다. 또한, 식물위생증명서와 원산지 증명서를 반드시 구비해야 한다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      }
+    },
+    "Hong Kong (CFS/FEHD)": {
+      "fsmp": {
+        "lawSummary": "Food and Drugs (Comp. & Labelling) Regs, Cap 132W",
+        "consolidatedSummary": "홍콩 특수의료용 식품(FSMP)은 사전 시장 승인이 불필요하나, 2010년부터 영양성분 표시가 의무화되었다. 라벨은 영어와 번체 중국어(Traditional Chinese)로 병기해야 하며, 간체자는 인정되지 않는다. 8종 알레르겐 표시 또한 필수이며, 위생 성적서와 원산지 증명이 요구된다. 중국 본토 규제와는 완전히 별개이므로 별도 라벨 설계가 필수이며, Codex 기준을 준용하여 대부분의 성분 허용 범위가 넓다.",
+        "exportAlert": "한국 기업은 중국 본토(SAMR GB 기준)와 홍콩(CFS/FEHD)의 규제가 완전히 별개이므로, 홍콩 수출 시 간체자가 아닌 번체 중국어(Traditional Chinese)와 영어로 병기된 별도 라벨을 반드시 설계해야 한다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "plant-based": {
+        "lawSummary": "홍콩 식품 및 의약품 (성분 및 라벨링) 규정",
+        "consolidatedSummary": "홍콩의 식물성 식품은 사전 승인 없이 시장 출시가 가능하지만, 모든 제품에 영양성분 표시가 의무이며, 특히 식물성 음료류는 CFS 가이드라인에 따른 영양성분 표시 항목을 확인해야 합니다. 라벨은 영어와 번체 중국어(간체자 불인정)를 병기해야 하며, GMO 성분 함유 시 홍콩 독자 기준으로 \"基因改造\"를 명시해야 합니다. 대두 알레르겐 또한 의무적으로 표시해야 합니다.",
+        "exportAlert": "한국 기업은 홍콩 수출 시 반드시 번체 중국어(간체자 불인정)와 영어를 병기한 라벨을 사용해야 하며, 홍콩 독자적인 GMO 표시 기준(\"基因改造\")과 대두 알레르겐 표기를 포함한 영양성분 표시 의무를 준수해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "grains": {
+        "lawSummary": "홍콩 식품 안전 조례 Cap 612 및 잔류농약 가이드라인",
+        "consolidatedSummary": "홍콩으로 곡류 및 가공 시리얼 제품 수출 시 사전 시장 승인은 불필요합니다. 잔류농약(MRL) 및 아플라톡신 기준은 Codex를 준용하며, 이는 규제의 유연성을 의미합니다. 단, 모든 제품 라벨은 반드시 영어와 번체 중국어를 병기해야 하며, 누락 시 판매가 금지됩니다. 곡류 가공 제품에 사용되는 첨가물은 Cap 132W Regulations의 허용 목록을 준수해야 하며, 수입 사업자는 식품 안전 기준 준수에 대한 책임이 있습니다.",
+        "exportAlert": "한국 기업은 홍콩 수출 시 곡류 및 시리얼 제품의 라벨에 반드시 영어와 번체 중국어를 이중으로 표기해야 합니다. 이중 표기 누락 시 해당 제품의 판매가 금지될 수 있으므로 각별한 주의가 필요합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "meat-fish": {
+        "lawSummary": "식품안전조례 및 동물/조류 공중보건조례",
+        "consolidatedSummary": "홍콩으로 육류 수출 시 FEHD 승인 국가 목록을 반드시 확인하고 최신 정보를 반영해야 한다. 수산물은 Cap 132W 위생 기준을 준수하고 히스타민 200 mg/kg 이하를 유지하며 위생 증명서가 필수이다. 모든 식품 라벨은 영어와 번체자를 병기해야 하며, 번체자 누락 시 판매 금지된다. 사전 시장 승인은 불필요하다.",
+        "exportAlert": "한국 기업은 홍콩 수출 시 FEHD의 최신 육류 수입 허가 원산지 목록을 반드시 확인하고, 모든 제품 라벨에 번체자 표기를 누락하지 않도록 주의해야 한다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "vegetables": {
+        "lawSummary": "Pesticide Residues in Food Regulation Cap 132CM",
+        "consolidatedSummary": "홍콩은 신선 채소 수입에 별도 허가가 필요 없으나, Cap 132CM 잔류농약 기준을 적용하며(Codex 기반이나 독자 기준도 포함), 수출 전 CFS 데이터베이스에서 반드시 교차 확인해야 합니다. 잔류농약 위반 시 즉시 판매가 금지됩니다. 제품 라벨은 영어와 번체 중국어를 병기해야 하며, 번체자 누락 시 현지 마트에서 수입이 거부될 수 있습니다. 신선 채소는 콜드체인 유지가 권장되며, 항공 수출 시 관련 문서 완비가 필수입니다.",
+        "exportAlert": "홍콩 수출 전 Cap 132CM 잔류농약 기준이 Codex와 다를 수 있으므로 CFS 데이터베이스에서 반드시 교차 확인해야 하며, 영어와 번체 중국어 병기 라벨링을 정확히 준수해야 현지 마트에서 거부되지 않습니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "fruits": {
+        "lawSummary": "Food Safety Ordinance Cap 612 / Cap 132C",
+        "consolidatedSummary": "[생성 실패] 신선 과일: 수입 허가 불필요, 잔류농약 기준 Cap 132CM(Codex 기반) 준수. 가공 과일 제품(주스·잼): 영양성분 표시 의무. 영어·번체 중국어 병기 라벨. 방부제 C",
+        "exportAlert": "홍콩 CFS MRL이 Codex와 일부 다를 수 있음 — 수출 전 최신 목록 확인. 방부제 사용 시 Cap 132U Regulations 허용 목록 준수 필수. 가공 과일 제품 번",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "dairy": {
+        "lawSummary": "Food and Drugs (Composition and Labellin",
+        "consolidatedSummary": "[생성 실패] 우유 수입 시 원산지별 검역 허가(Cap 132AH 준수). 영양성분 표시 의무. 영어·번체 중국어 병기 라벨. 살균 처리 표시 의무. 항생제 잔류 Codex 기준 적용.",
+        "exportAlert": "홍콩 우유 수입 허가 원산지 목록(Cap 132AH) 확인 필수 — 미승인 원산지 수입 불가. 번체자 라벨 의무. 홍콩은 중국 본토와 유제품 검역 기준 별개 운영.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "bakery": {
+        "lawSummary": "홍콩 Cap 132W/U 식품 및 의약품 규정",
+        "consolidatedSummary": "베이커리·과자는 사전 승인 불필요하나, 첨가물은 반드시 Cap 132U 허용 목록을 준수해야 하며, 목록 외 사용 시 위반이다. 홍콩은 코덱스 기반으로 대부분 성분을 허용하지만, Potassium Bromate는 금지된다. E171(이산화티타늄)은 중국 본토와 달리 홍콩에서 사용 가능(코덱스 기준). 모든 제품은 영양성분 표시가 의무이며, 라벨은 영어와 번체 중국어를 병기해야 한다. 간체자만 표기 시 판매 불가.",
+        "exportAlert": "홍콩 수출 시 제품 라벨에 반드시 영어와 번체 중국어를 병기해야 하며, 간체자만 표기 시 판매 불가합니다. 또한 Potassium Bromate 사용은 전면 금지되며, E171(이산화티타늄)은 허용되나 EU 수출 병행 시 별도 성분 관리가 필요합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      }
+    },
+    "Vietnam (VFA)": {
+      "fsmp": {
+        "lawSummary": "Thông tư 43/2014/TT-BYT — 특수 영양 식품 규정 (V",
+        "consolidatedSummary": "[생성 실패] 특수 의료용 식품 수입 시 VFA 수입 허가(Import Permit) 필수. 성분 적합성 Self-Declaration 의무. 베트남어 라벨 표시 필수. 허용 첨가물 목록 Cir",
+        "exportAlert": "2026.01 온라인 수입허가 시스템 전환. 색소·감미료 성분 Circular 24 허용 목록 사전 확인 필수. 아조계 색소 한도 강화 적용 중.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "plant-based": {
+        "lawSummary": "Thông tư 43/2014 / Nghị định 15/2018 — 식",
+        "consolidatedSummary": "[생성 실패] 식물성 단백질 식품(두유·식물성 버거 등) 수입 시 VFA 수입 허가 필요. Self-Declaration 의무. 베트남어 성분표 필수. 허용 첨가물 Circular 24 적용.",
+        "exportAlert": "두유·식물성 단백질 제품 Circular 24 색소·보존료 한도 확인. 수입 허가 갱신 2026.01부터 온라인 전환. 아조계 색소 사용 시 사전 확인 필수.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "bakery": {
+        "lawSummary": "Thông tư 24/2019/TT-BYT — 식품첨가물 허용기준 (VF",
+        "consolidatedSummary": "[생성 실패] 아조계 색소(타르트라진, 선셋옐로우, 퀴놀린옐로우) 한도 강화 적용. Potassium Bromate 사용 전면 금지. 보존료(소르빈산·프로피온산) 한도 Circular 24 준수",
+        "exportAlert": "Potassium Bromate 포함 제품 수출 즉시 중단. 아조계 색소 Circular 24 최신 한도 확인 필수. 수입 허가 갱신 2026.01 온라인 전환 사전 준비 필요.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      }
+    },
+    "Malaysia (MOH/JAKIM)": {
+      "fsmp": {
+        "lawSummary": "Food Act 1983 / Food Regulations 1985 / ",
+        "consolidatedSummary": "[생성 실패] MOH 사전 수입 허가 필수. 동물성 유래 원료 포함 시 JAKIM 할랄 인증(MS1500) 의무. MeSTI 제조 인증 병행 취득 필요. 말레이어·영어 이중 라벨 표시 의무.",
+        "exportAlert": "FSMP 제품 내 동물성 유래 원료 사용 시 JAKIM 할랄 인증 필수. MeSTI 인증 병행 취득 권장. 아랍계 무슬림 소비자 비중 고려한 제품 설계.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "plant-based": {
+        "lawSummary": "Food Regulations 1985 / JAKIM Halal Stan",
+        "consolidatedSummary": "[생성 실패] MOH 수입 허가 및 Food Regulations 1985 성분 기준 준수. 알코올 추출 공정 사용 시 JAKIM 할랄 인증 취득 불가 — 공정 대체 필수. 말레이어 표시 의무.",
+        "exportAlert": "식물성 제품이라도 알코올 추출 공정 사용 시 JAKIM 할랄 인증 취득 불가. 공정 전환 필요. 두부·대두 단백 제품 수출 유망.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "grains": {
+        "lawSummary": "Food Act 1983 / Food Regulations 1985 / ",
+        "consolidatedSummary": "[생성 실패] 잔류농약 MRL: Food Regulations 1985 기준(Codex 준용). 곰팡이독소: 아플라톡신 총량 15 μg/kg 이하. MAQIS 식물검역(Phytosanitary)",
+        "exportAlert": "곡류 수입 시 MAQIS 식물검역 사전 확인 필수. 가공 곡류에 동물성 처리제 사용 시 JAKIM 할랄 인증 필요. MeSTI 인증 권장.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "meat-fish": {
+        "lawSummary": "Food Act 1983 / MAQIS 동물검역법 / JAKIM Hala",
+        "consolidatedSummary": "[생성 실패] MAQIS 동물성 식품 검역 서류 3종 동시 제출(2026.06~): 원산지 증명서·수의사 확인서·할랄 인증서. JAKIM 할랄 인증 필수(도축 방식 포함). 수산물: 위생증명서 ",
+        "exportAlert": "돼지고기·돼지 유래 성분 전면 수입 금지. 소·양·가금류 할랄 도축 인증 필수. 2026.06부터 서류 미준수 시 반송 처리. 수산물은 히스타민 200 mg/kg 이하 확인.",
+        "enforcementDate": "2026.06.01",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "vegetables": {
+        "lawSummary": "Food Regulations 1985 / MAQIS 식물검역법",
+        "consolidatedSummary": "[생성 실패] 잔류농약 MRL: Food Regulations 1985 기준(Codex 준용). MAQIS 식물검역(Phytosanitary) 증명서 의무. 신선 가공 채소: 미생물 기준(대장균",
+        "exportAlert": "MAQIS 수입 검역 사전 확인 필수. Chlorpyrifos 등 EU 금지 농약 잔류 시 수입 거부 가능. 냉장 신선 채소 콜드체인 문서 준비 권장.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "fruits": {
+        "lawSummary": "Food Regulations 1985 / MAQIS 식물검역법",
+        "consolidatedSummary": "[생성 실패] 잔류농약 MRL: Codex 준용. MAQIS 식물검역 증명서 필수. 수입 가공 과일·건과류: Food Regulations 1985 보존료·첨가물 기준 준수. 말레이어 라벨 의무",
+        "exportAlert": "열대 과일 수출 유망 품목이나 MAQIS 검역 기준 엄격. 건과류·과일 가공품에 동물성 성분 사용 시 JAKIM 할랄 인증 병행 필요. 포스트하베스트 처리제 허용 여부 사전 확인.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "dairy": {
+        "lawSummary": "Food Regulations 1985 / JAKIM Halal Stan",
+        "consolidatedSummary": "[생성 실패] JAKIM 할랄 인증 필수(우유·유청 등 동물성 유래 전 성분). MAQIS 동물성 식품 검역 서류 3종(원산지 증명서·수의사 확인서·할랄 인증서). 살균 의무 및 MeSTI/HA",
+        "exportAlert": "모든 유제품 JAKIM 할랄 인증 필수. 치즈류 동물성 레닛 사용 시 할랄 원산지 증명 필요. 수입 유제품 MAQIS 검역 2026.06 강화 시행 사전 준비.",
+        "enforcementDate": "2026.06.01",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "bakery": {
+        "lawSummary": "Food Regulations 1985 / JAKIM Halal MS15",
+        "consolidatedSummary": "[생성 실패] Food Regulations 1985 허용 첨가물 목록 준수. 라드(돼지기름)·돼지 유래 젤라틴 사용 금지 — JAKIM 인증 식물성 쇼트닝으로 대체 필수. MeSTI 인증 권장",
+        "exportAlert": "제과류 내 라드(돼지기름)·젤라틴(돼지 유래) 사용 전면 금지. JAKIM 인증 식물성 쇼트닝으로 대체 필수. 타르트라진 등 아조계 색소 허용 목록 확인.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      }
+    },
+    "Indonesia (BPOM)": {
+      "fsmp": {
+        "lawSummary": "PP 69/1999 + BPOM Reg. HK.03.1.23.11.11.",
+        "consolidatedSummary": "[생성 실패] BPOM ML 번호 등록 필수. 할랄 인증(BPJPH) 2026.10.17 전면 의무화. 기능성 원료는 Pangan Fungsional 카테고리 사전 허가 필요. 성분 SNI 및 ",
+        "exportAlert": "BPOM ML 번호 등록 필수. 할랄 인증(BPJPH) 2024년 1단계(고위험 식품) 시행, 2단계(2026.10.17) 전면 의무화. GB 기준 아닌 자체 SNI 및 BPOM ",
+        "enforcementDate": "2026.10.17",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "plant-based": {
+        "lawSummary": "BPOM Reg. No. 22 Tahun 2019 (Pangan Olah",
+        "consolidatedSummary": "[생성 실패] 식물성 단백질 제품 BPOM ML 등록 필수. 대두·글루텐 알레르겐 표시 의무. 할랄 인증 없이는 \"halal\" 표기 불가. 2026.10 이후 할랄 인증 전면 의무화.",
+        "exportAlert": "식물성 단백질 제품도 BPOM ML 등록 필수. 대두·글루텐 알레르겐 표시 의무. 할랄 인증 없이는 \"halal\" 표기 불가 (2026.10 이후 전면 의무화).",
+        "enforcementDate": "2026.10.17",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "bakery": {
+        "lawSummary": "BPOM Reg. No. 22 Tahun 2019 + SNI 01-384",
+        "consolidatedSummary": "[생성 실패] 제과·제빵류 BPOM ML 등록 필수. 돼지 유래 젤라틴/쇼트닝 사용 불가 (할랄 인증 조건). Potassium Bromate 사용 금지. 색소는 BPOM 허가 목록 내 성분만 ",
+        "exportAlert": "제과·제빵류 BPOM ML 등록 필수. 돼지 유래 젤라틴/쇼트닝 사용 불가 (할랄 인증 조건). Potassium Bromate 사용 금지. 색소는 BPOM 허가 목록 내 성분만 ",
+        "enforcementDate": "2026.10.17",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      }
+    },
+    "Australia (FSANZ)": {
+      "fsmp": {
+        "lawSummary": "Food Standards Code Standard 2.9.5 (FSMP",
+        "consolidatedSummary": "[생성 실패] Standard 2.9.5 성분 기준 준수 필수. 동물성 단백질(육류·난황·유청) 포함 제품은 Biosecurity Import Permit 의무 취득. 알룰로스 등 미허가 신규 ",
+        "exportAlert": "⚠️ Biosecurity Risk: 육류·난황·유청 단백질 포함 FSMP 제품은 수입 허가(Biosecurity Import Permit) 필수. 알룰로스 미허가(Novel Fo",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "plant-based": {
+        "lawSummary": "Food Standards Code Standard 1.3.1 / Sta",
+        "consolidatedSummary": "[생성 실패] Standard 1.3.1 허용 첨가물·영양 성분 목록 준수 필수. 레귀메이션·미세조류 등 신규 식물성 단백질은 Novel Food 사전 허가 필요. 알룰로스 함유 제품 현재 미허",
+        "exportAlert": "식물성 대체단백·기능성 성분 Novel Food 해당 여부 사전 확인 필수. 알룰로스 함유 식물성 제품 호주 수출 시 현재 미허가 상태.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "grains": {
+        "lawSummary": "Food Standards Code Standard 2.1.1 (Cere",
+        "consolidatedSummary": "[생성 실패] 아플라톡신 B1 ≤ 15 μg/kg, 총 아플라톡신 ≤ 15 μg/kg. DON(데옥시니발레놀) ≤ 2,000 μg/kg. FSANZ 잔류농약 MRL 준수. DAFF 식물검역 입항",
+        "exportAlert": "일부 곡물 원산지에 따라 DAFF 바이오보안 강화 검역 적용. 곤충·해충 오염 리스크 제품은 열처리 처리 요구될 수 있음. Health Star Rating 가공 곡물 적용 검토.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "meat-fish": {
+        "lawSummary": "Biosecurity Act 2015 (DAFF) / FSANZ Stan",
+        "consolidatedSummary": "[생성 실패] ⚠️ 모든 육류·가금류·달걀 관련 가공품: DAFF 바이오보안 수입 허가(Biosecurity Import Permit) 필수. 히스타민: 수산물 200 mg/kg 이하. 리스테리",
+        "exportAlert": "육류·달걀 성분 포함 가공식품은 수입 전 DAFF 허가 취득 필수(처리 기간 3~6개월). 수산물 HACCP 문서화 의무. 호주산 육류가 아닌 수입 육류는 별도 검역 강화 대상.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "vegetables": {
+        "lawSummary": "FSANZ Standard 1.4.1 (Contaminants) / DA",
+        "consolidatedSummary": "[생성 실패] FSANZ 잔류농약 MRL 준수(FSANZ MRL List). 미생물: 신선 엽채류 살모넬라 25g 불검출. DAFF 식물검역 입항 신고 필수. 일부 채소 수입 시 검역 처리(He",
+        "exportAlert": "호주는 식물검역 매우 엄격 — 흙 묻은 채소 반입 금지. 가공 채소류는 FSANZ 식품첨가물 허용 목록 준수. 알룰로스 함유 가공 채소 제품 Novel Food 심사 대상 가능.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "fruits": {
+        "lawSummary": "FSANZ Standard 1.4.1 / DAFF Biosecurity ",
+        "consolidatedSummary": "[생성 실패] FSANZ 잔류농약 MRL 목록 준수. 포스트하베스트 처리제(Thiabendazole 등) 허용 목록 확인 필수. DAFF 식물검역 입항 신고 의무. 일부 신선 과일 검역 처리(증",
+        "exportAlert": "호주는 신선 과일 검역 세계 최고 수준 엄격. 수입 가능 과일 목록(Approved Pathways) DAFF 사전 확인 필수. 가공 과일 제품은 FSANZ 식품첨가물 목록 내 성",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "dairy": {
+        "lawSummary": "FSANZ Standard 2.5.1–2.5.7 (Dairy Produc",
+        "consolidatedSummary": "[생성 실패] Standard 2.5.1 우유 성분 기준: 살균 의무. 치즈: Standard 2.5.4 성분 기준 준수. ⚠️ 유청 단백 분말·분유류: DAFF 바이오보안 수입 허가 대상 여부",
+        "exportAlert": "생유(Raw Milk) 치즈 일부 수입 제한. 유청 단백 분말은 DAFF 바이오보안 허가 필요할 수 있음 — 처리 방식·원산지에 따라 상이. Health Star Rating 유제",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "bakery": {
+        "lawSummary": "Food Standards Code Standard 2.9.1 / Bio",
+        "consolidatedSummary": "[생성 실패] Standard 2.9.1 제과 성분 기준 준수. Potassium Bromate 사용 금지. 난황·우유 성분 포함 제품은 Biosecurity Import Permit 취득 여부",
+        "exportAlert": "난황·우유 성분 포함 제과류 바이오보안 수입 허가 대상 여부 확인 필수. Potassium Bromate 금지. Health Star Rating 표시 시 제과류 경쟁력 강화 효과",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      }
+    },
+    "Canada (CFIA)": {
+      "fsmp": {
+        "lawSummary": "Food and Drugs Act + FDR B.24 (Foods for",
+        "consolidatedSummary": "[생성 실패] FSMP는 \"Foods for Special Dietary Use\" 카테고리. 수입 시 CFIA SFCR 허가 필수. 라벨에 영어·불어 이중 표기 의무. Health Canada ",
+        "exportAlert": "FSMP는 \"Foods for Special Dietary Use\" 카테고리. 수입 시 CFIA SFCR 허가 + 라벨에 영어·불어 이중 표기 의무. Health Canada Pr",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "plant-based": {
+        "lawSummary": "Safe Food for Canadians Regulations (SFC",
+        "consolidatedSummary": "[생성 실패] \"Plant-based meat\" 표기 CFIA 가이드라인 준수 필수. 2025년 이후 FOPL(전면 영양 정보 표시) 도입으로 고지방/당류 경고 라벨 부착 의무화 예정. 영어·불",
+        "exportAlert": "\"Plant-based meat\" 표기 CFIA 가이드라인 준수 필수. 2025년 이후 FOPL(전면 영양 정보 표시) 도입으로 고지방/당류 경고 라벨 부착 의무화 예정. 영어·불",
+        "enforcementDate": "2026.01.01",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "bakery": {
+        "lawSummary": "Safe Food for Canadians Regulations (SFC",
+        "consolidatedSummary": "[생성 실패] Potassium Bromate 사용 금지 (캐나다 1994년 금지). Azodicarbonamide(ADA) 제한적 허용(45 ppm). 2026.01.01부터 FOPL 고당류 ",
+        "exportAlert": "Potassium Bromate 사용 금지 (캐나다 1994년 금지). Azodicarbonamide(ADA) 제한적 허용(45 ppm). 2026.01.01부터 FOPL 고당류 ",
+        "enforcementDate": "2026.01.01",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      }
+    },
+    "UAE (MoIAT)": {
+      "fsmp": {
+        "lawSummary": "GSO 9/2013 / UAE.S 2055 / Emirates Autho",
+        "consolidatedSummary": "[생성 실패] GSO 9/2013 및 UAE.S 2055 성분 기준 준수. ESMA 제품 등록 필수. 아랍어 라벨 전 항목(성분·영양·유효기한) 표기 의무. ECAS 또는 ESMA 승인 할랄 인",
+        "exportAlert": "아랍어 라벨 전 항목 의무. ECAS/ESMA 승인 할랄 인증서 필수. GSO 영양 표시 2026 개정판 적용. 동물성 유래 성분 할랄 검증 우선.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "plant-based": {
+        "lawSummary": "GSO 1694:2009 / UAE.S 2055 Plant-based F",
+        "consolidatedSummary": "[생성 실패] GSO 1694:2009 식물성 식품 기준 준수. ESMA 제품 등록 필수. 아랍어 성분·영양 라벨 전 항목 의무 표기. 가당 식물성 음료 설탕세(Excise Tax) 적용 대상 ",
+        "exportAlert": "식물성 제품도 아랍어 라벨 의무 및 ESMA 등록 필요. 가당 식물성 음료는 설탕세 적용 대상. Stevia·Monk Fruit 대체 감미료 활용 권장.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "grains": {
+        "lawSummary": "GSO 14:1993 (곡류·시리얼 기준) / UAE.S 2055 / E",
+        "consolidatedSummary": "[생성 실패] GSO 14 기준 아플라톡신 총량 ≤ 10 μg/kg. 잔류농약 Codex MRL 준용. ESMA 가공 곡류 제품 등록 필수. 아랍어 성분·원산지 라벨 전 항목 표기 의무.",
+        "exportAlert": "원산지 증명서 + 식물검역 증명서 동시 제출 필수. 아플라톡신 기준 EU보다 엄격(10 μg/kg). 아랍어 라벨 미비 시 통관 거부 사례 다수.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "meat-fish": {
+        "lawSummary": "GSO 993:2015 및 UAE.S 2055 (할랄 도축 기준)",
+        "consolidatedSummary": "UAE에 육류 및 가금류 제품을 수출하려면 ECAS 또는 ESMA 승인 기관의 할랄 도축 인증서가 필수이며, 미인증 제품은 통관이 전면 금지됩니다. 수산물은 GSO 기준에 따라 히스타민 함량이 200 mg/kg 이하여야 하며, 무슬림 소비자 선호를 위해 ECAS 할랄 인증이 권장됩니다. 모든 제품은 ESMA에 등록하고 아랍어 라벨을 전 항목 표기해야 합니다. 냉동 제품은 콜드체인 온도 기록지 제출이 의무입니다.",
+        "exportAlert": "한국 기업은 UAE로 육류 및 가금류 제품 수출 시 ECAS 또는 ESMA 승인 기관의 할랄 도축 인증서를 반드시 취득해야 하며, 미인증 시 통관이 전면 금지됩니다. 수산물은 GSO 기준에 따라 히스타민 200 mg/kg 이하를 준수해야 합니다.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": ""
+      },
+      "vegetables": {
+        "lawSummary": "GSO 9/2013 / Codex MRL 준용 / ESMA 식물검역",
+        "consolidatedSummary": "[생성 실패] Codex 기준 잔류농약 MRL 준용. 식물검역 증명서(Phytosanitary Certificate) 필수. ESMA 가공 채소 제품 등록. 아랍어 성분·원산지 표기 의무.",
+        "exportAlert": "신선 채소 수입 시 원산지별 검역 리스크 확인. 가공 채소류 아랍어 라벨 전 항목 기재 필수. 무농약·유기농 채소 수출 시 GSO 유기농 인증 기준 별도 확인.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "fruits": {
+        "lawSummary": "GSO 9/2013 / Codex MRL 준용 / FTA 설탕세",
+        "consolidatedSummary": "[생성 실패] Codex 잔류농약 MRL 준용. 식물검역 증명서 필수. 가공 과일 제품(잼·주스 등) ESMA 등록. 아랍어 라벨 전 항목 표기 의무. 가당 주스류 설탕세(50%) 적용 대상 확",
+        "exportAlert": "과일 주스·가당 과일 음료 설탕세 적용 대상 — 저당 설계 또는 Stevia 대체 검토 필요. 신선 과일 수입은 식물검역 증명서 필수. 아랍어 라벨 미비 시 통관 지연 빈발.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "dairy": {
+        "lawSummary": "GSO 223:1993 (유제품 기준) / ECAS Halal / ESM",
+        "consolidatedSummary": "[생성 실패] ECAS 또는 ESMA 승인 기관 할랄 인증 필수. GSO 223 유제품 성분 기준 준수. 살균 의무. ESMA 제품 등록. 아랍어 라벨 전 항목(유지방·단백질·알레르겐 포함) 표",
+        "exportAlert": "모든 유제품 할랄 인증 사실상 필수 — 레닛·유화제 등 동물성 첨가물 출처 검증 필요. 치즈류 수입 시 아랍어 전용 라벨 별도 제작 필수. GSO 2026 영양 표시 개정 대응 라",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "bakery": {
+        "lawSummary": "GSO 201:1994 / ESMA Halal Food Standard ",
+        "consolidatedSummary": "[생성 실패] GSO 201:1994 제과 기준 준수. ESMA 제품 등록 및 아랍어 라벨 전 항목 표기 의무. 동물성 유화제(E471 등) 할랄 인증 필수. 고당류 제품 설탕세(Excise T",
+        "exportAlert": "제과류 고당류 제품 설탕세 확대 적용 논의 중. 저당 제품군 전환 검토. 동물성 유화제(E471 등) 출처 할랄 인증 필수. 아랍어 성분 라벨 전 항목 표기.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      }
+    },
+    "China (SAMR)": {
+      "fsmp": {
+        "lawSummary": "GB 29922 / GB 25596 — 特殊医学用途配方食品",
+        "consolidatedSummary": "[생성 실패] SAMR 사전 등록 필수. 원료는 GB 2760 허용 성분 목록 내에 있어야 함. \"非肠外营养\" 경고 문구 의무.",
+        "exportAlert": "등록 과정 최소 12-18개월 소요. GB 2760에 없는 한국 허용 성분은 반드시 대체 성분 검토 필요.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "plant-based": {
+        "lawSummary": "GB 2715 / GB 7718 — 大豆蛋白 식품 기준 (SAMR)",
+        "consolidatedSummary": "[생성 실패] 식물성 단백질 식품 수입 시 GACC 등록 필수. 대두단백 제품은 GMO 표시 의무 (使用了转基因). 원료 GB 2760 첨가물 목록 준수. 중국어 라벨 필수.",
+        "exportAlert": "GMO 대두 성분 포함 시 중국어 표시 필수. 대두 단백 추출 공정 서류(생산시설 등록) GACC에 사전 제출. GB 2760 외 첨가물 즉시 대체 검토.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      },
+      "bakery": {
+        "lawSummary": "GB 7099 / GB 2760-2024 — 糕点·饼干 식품 첨가물 기준",
+        "consolidatedSummary": "[생성 실패] Sunset Yellow(일몰황, 황색4호) 최대 100mg/kg(GB 2760-2024 기준, 시행 중). 사카린·사이클라민산나트륨 사용 허용(한도 내). 이산화티타늄(E171)",
+        "exportAlert": "한국 허용 색소가 GB 2760에 없을 수 있음(예: 적색2호 금지). Sunset Yellow 100mg/kg 기준(GB 2760-2024, 2025.02.08 시행 중) 적용.",
+        "enforcementDate": "시행 중",
+        "reviewedBy": "Gemini",
+        "reviewNote": "자동 생성 실패 — 수동 검토 필요"
+      }
+    }
+  }
+}
